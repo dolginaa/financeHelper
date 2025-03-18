@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     //AddReceipt(imagePath, 1);
     //AddIncome(1, 1000, "daily");
 
-    std::string res = GetReport(1, "2025-03-10", "2025-03-19");
+    std::string res = GetReport(1, "2025-03-14", "2025-03-19");
 
     std::cout << "Тестовый вывод\n" << std::endl;
 

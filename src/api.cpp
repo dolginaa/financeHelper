@@ -328,44 +328,191 @@ std::string GetReport(int userId, const std::string &startDate = "", const std::
     for (const auto& expense : userData.expenses) {
         auto date = parseDate(expense.date);
         if (date >= startTp && date <= endTp) {
-            balance -= expense.amount;
+            balance = -expense.amount;
             balanceHistory[date] = balance;
         }
     }
 
     for (const auto& income : userData.incomes) {
         auto date = parseDate(income.startDate);
-        auto curDate = parseDate(currentDate);
         if (date >= startTp && date <= endTp) {
-            int multiplier = 1;
+            for (auto curTp = date; curTp <= endTp; curTp += std::chrono::hours(24)) {
+                balance = balanceHistory[curTp - std::chrono::hours(24)]+balanceHistory[curTp];
+                std::cout << "balanceHistory = " << balanceHistory[curTp - std::chrono::hours(24)] << "+" << balanceHistory[curTp];
+                int multiplier = 0;
 
-            if (income.frequency == "daily") {
-                multiplier = daysBetween(date, curDate);
-            } else if (income.frequency == "monthly") {
-                std::tm dateTm = toTm(date);
-                std::tm curDateTm = toTm(curDate);
-                multiplier = monthsBetween(dateTm, curDateTm);
-            } else if (income.frequency == "yearly") {
-                std::tm dateTm = toTm(date);
-                std::tm curDateTm = toTm(curDate);
-                multiplier = yearsBetween(dateTm, curDateTm);
+                if (income.frequency == "daily") {
+                    int daysDiff = daysBetween(date, curTp);
+                    if (daysDiff > 0) multiplier = 1;
+                } else if (income.frequency == "monthly") {
+                    std::tm dateTm = toTm(date);
+                    std::tm curDateTm = toTm(curTp);
+                    std::tm prevDateTm = curDateTm;
+                    prevDateTm.tm_mday -= 1;
+
+                    int monthsCur = monthsBetween(dateTm, curDateTm);
+                    int monthsPrev = monthsBetween(dateTm, prevDateTm);
+
+                    if (monthsCur != monthsPrev) multiplier = 1;
+                } else if (income.frequency == "yearly") {
+                    std::tm dateTm = toTm(date);
+                    std::tm curDateTm = toTm(curTp);
+                    std::tm prevDateTm = curDateTm;
+                    prevDateTm.tm_mday -= 1;
+
+                    int yearsCur = yearsBetween(dateTm, curDateTm);
+                    int yearsPrev = yearsBetween(dateTm, prevDateTm);
+
+                    if (yearsCur != yearsPrev) multiplier = 1;
+                }
+
+                balance += income.amount * multiplier;
+                balanceHistory[curTp] = balance;
             }
-
-            balance += income.amount * multiplier;
-            balanceHistory[date] = balance;
-            std::cout <<
         }
     }
 
     // Заполняем баланс на каждый день, учитывая баланс за прошлый день
     std::map<std::chrono::system_clock::time_point, double> dailyBalance;
-    double lastBalance = 0;
 
     for (auto tp = startTp; tp <= endTp; tp += std::chrono::hours(24)) {
-        if (balanceHistory.find(tp) != balanceHistory.end()) {
-            lastBalance = balanceHistory[tp];
+        dailyBalance[tp] += balanceHistory[tp];
+    }
+
+    // Создание графика
+    QChartView chartView;
+    QChart *chart = new QChart();
+    chart->setTitle("Баланс пользователя");
+    QLineSeries *balanceSeries = new QLineSeries();
+    balanceSeries->setName("Баланс");
+
+    for (const auto& [date, value] : dailyBalance) {
+        auto timeT = std::chrono::system_clock::to_time_t(date);
+        QDateTime qDateTime = QDateTime::fromSecsSinceEpoch(timeT);
+        balanceSeries->append(qDateTime.toMSecsSinceEpoch(), value);
+    }
+
+    chart->addSeries(balanceSeries);
+    QDateTimeAxis *axisX = new QDateTimeAxis();
+    axisX->setFormat("yyyy-MM-dd");
+    axisX->setTitleText("Дата");
+    axisX->setTickCount(7);
+    axisX->setLabelsAngle(-30);
+    chart->addAxis(axisX, Qt::AlignBottom);
+    balanceSeries->attachAxis(axisX);
+
+    QValueAxis *axisY = new QValueAxis();
+    axisY->setTitleText("Баланс");
+    chart->addAxis(axisY, Qt::AlignLeft);
+    balanceSeries->attachAxis(axisY);
+
+    chartView.setChart(chart);
+    chartView.resize(1200, 900);
+
+    // Запрос пути для сохранения PDF
+    QString fileName = QFileDialog::getSaveFileName(nullptr, "Сохранить PDF", "", "PDF Files (*.pdf)");
+    if (fileName.isEmpty()) return "";
+
+    // Сохранение графика в PDF
+    QPdfWriter writer(fileName);
+    writer.setPageSize(QPageSize(QPageSize::A4));
+    writer.setResolution(300);
+
+    QPainter painter(&writer);
+    painter.setRenderHint(QPainter::Antialiasing);
+    chartView.render(&painter);
+    painter.end();
+
+    std::cout << "График сохранен в " << fileName.toStdString() << std::endl;
+    return fileName.toStdString();
+}
+
+/*std::string GetReport(int userId, const std::string &startDate = "", const std::string &endDate = currentDate) {
+    // Определяем даты
+    std::chrono::system_clock::time_point startTp, endTp;
+
+    if (startDate.empty()) {
+        startTp = parseDate("1990-01-01");
+    } else {
+        startTp = parseDate(startDate);
+    }
+
+    if (endDate.empty()) {
+        endTp = parseDate(getCurrentDate());
+    } else {
+        endTp = parseDate(endDate);
+    }
+
+    if (endTp < startTp) {
+        std::cerr << "Ошибка: неверный диапазон дат!" << std::endl;
+        return "";
+    }
+
+    // Загружаем данные пользователя
+    Storage storage("data.json");
+    UserData userData = storage.getUserData(userId);
+
+    if (userData.expenses.empty() && userData.incomes.empty()) {
+        std::cerr << "Ошибка: нет данных для отчета!" << std::endl;
+        return "";
+    }
+
+    // Фильтруем расходы и доходы по диапазону дат
+    std::map<std::chrono::system_clock::time_point, double> balanceHistory;
+    double balance = 0;
+
+    for (const auto& expense : userData.expenses) {
+        auto date = parseDate(expense.date);
+        if (date >= startTp && date <= endTp) {
+            balance = -expense.amount;
+            balanceHistory[date] = balance;
         }
-        dailyBalance[tp] = lastBalance; // Устанавливаем баланс на этот день
+    }
+
+    for (const auto& income : userData.incomes) {
+        auto date = parseDate(income.startDate);
+        if (date >= startTp && date <= endTp) {
+            for (auto curTp = date; curTp <= endTp; curTp += std::chrono::hours(24)) {
+                balance = balanceHistory[curTp - std::chrono::hours(24)]+balanceHistory[curTp];
+                std::cout << "balanceHistory = " << balanceHistory[curTp - std::chrono::hours(24)] << "+" << balanceHistory[curTp];
+                int multiplier = 0;
+
+                if (income.frequency == "daily") {
+                    int daysDiff = daysBetween(date, curTp);
+                    if (daysDiff > 0) multiplier = 1;
+                } else if (income.frequency == "monthly") {
+                    std::tm dateTm = toTm(date);
+                    std::tm curDateTm = toTm(curTp);
+                    std::tm prevDateTm = curDateTm;
+                    prevDateTm.tm_mday -= 1;
+
+                    int monthsCur = monthsBetween(dateTm, curDateTm);
+                    int monthsPrev = monthsBetween(dateTm, prevDateTm);
+
+                    if (monthsCur != monthsPrev) multiplier = 1;
+                } else if (income.frequency == "yearly") {
+                    std::tm dateTm = toTm(date);
+                    std::tm curDateTm = toTm(curTp);
+                    std::tm prevDateTm = curDateTm;
+                    prevDateTm.tm_mday -= 1;
+
+                    int yearsCur = yearsBetween(dateTm, curDateTm);
+                    int yearsPrev = yearsBetween(dateTm, prevDateTm);
+
+                    if (yearsCur != yearsPrev) multiplier = 1;
+                }
+
+                balance += income.amount * multiplier;
+                balanceHistory[curTp] = balance;
+            }
+        }
+    }
+
+    // Заполняем баланс на каждый день, учитывая баланс за прошлый день
+    std::map<std::chrono::system_clock::time_point, double> dailyBalance;
+
+    for (auto tp = startTp; tp <= endTp; tp += std::chrono::hours(24)) {
+        dailyBalance[tp] += balanceHistory[tp];
     }
 
     QChartView chartView;
@@ -416,3 +563,4 @@ std::string GetReport(int userId, const std::string &startDate = "", const std::
     std::cout << "График сохранен в " << filePath.toStdString() << std::endl;
     return filePath.toStdString();
 }
+*/
