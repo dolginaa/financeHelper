@@ -36,7 +36,7 @@ namespace {
 struct qt_meta_stringdata_CLASSAddIncomeDialogENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSAddIncomeDialogENDCLASS = QtMocHelpers::stringData(
     "AddIncomeDialog",
-    "on_okButton_clicked",
+    "on_addButton_clicked",
     "",
     "on_cancelButton_clicked"
 );
@@ -78,7 +78,7 @@ Q_CONSTINIT const QMetaObject AddIncomeDialog::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSAddIncomeDialogENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<AddIncomeDialog, std::true_type>,
-        // method 'on_okButton_clicked'
+        // method 'on_addButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_cancelButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
@@ -92,7 +92,7 @@ void AddIncomeDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         auto *_t = static_cast<AddIncomeDialog *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->on_okButton_clicked(); break;
+        case 0: _t->on_addButton_clicked(); break;
         case 1: _t->on_cancelButton_clicked(); break;
         default: ;
         }

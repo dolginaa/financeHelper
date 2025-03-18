@@ -1223,12 +1223,14 @@ untitled1_autogen/timestamp: \
 	/Users/adolgina/untitled1/build/CMakeFiles/3.31.3/CMakeCXXCompiler.cmake \
 	/Users/adolgina/untitled1/build/CMakeFiles/3.31.3/CMakeSystem.cmake \
 	/Users/adolgina/untitled1/build/untitled1_autogen/moc_predefs.h \
+	/Users/adolgina/untitled1/include/api.h \
 	/Users/adolgina/untitled1/include/chart_widget.h \
 	/Users/adolgina/untitled1/include/image_processing.h \
 	/Users/adolgina/untitled1/include/mainwindow.h \
 	/Users/adolgina/untitled1/include/storage.h \
 	/Users/adolgina/untitled1/include/text_recognition.h \
 	/Users/adolgina/untitled1/main.cpp \
+	/Users/adolgina/untitled1/src/api.cpp \
 	/Users/adolgina/untitled1/src/chart_widget.cpp \
 	/Users/adolgina/untitled1/src/image_processing.cpp \
 	/Users/adolgina/untitled1/src/mainwindow.cpp \
@@ -1236,6 +1238,8 @@ untitled1_autogen/timestamp: \
 	/Users/adolgina/untitled1/src/text_recognition.cpp \
 	/Users/adolgina/untitled1/ui/add_income_dialog.cpp \
 	/Users/adolgina/untitled1/ui/add_income_dialog.h \
+	/Users/adolgina/untitled1/ui/expense_report_dialog.cpp \
+	/Users/adolgina/untitled1/ui/expense_report_dialog.h \
 	/Users/adolgina/untitled1/ui/report_dialog.cpp \
 	/Users/adolgina/untitled1/ui/report_dialog.h \
 	/Users/adolgina/untitled1/ui/upload_receipt_dialog.cpp \
@@ -1329,6 +1333,7 @@ untitled1_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qchar.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
@@ -1345,6 +1350,7 @@ untitled1_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
@@ -1390,6 +1396,7 @@ untitled1_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qrect.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qregularexpression.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qset.h \
@@ -1423,6 +1430,7 @@ untitled1_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtimezone.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
@@ -1466,6 +1474,7 @@ untitled1_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpen.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h \
@@ -1475,26 +1484,47 @@ untitled1_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtextcursor.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtextformat.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qvalidator.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qvector2d.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QAbstractButton \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QApplication \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QDateEdit \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QDialogButtonBox \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsWidget \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QTextEdit \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qabstractspinbox.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qapplication.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qdatetimeedit.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qdialogbuttonbox.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qgraphicslayoutitem.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qgraphicswidget.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qtextedit.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
@@ -1605,6 +1635,7 @@ untitled1_autogen/timestamp: \
 	/opt/homebrew/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake \
 	/opt/homebrew/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake \
 	/Users/adolgina/untitled1/ui/add_income_dialog.ui \
+	/Users/adolgina/untitled1/ui/expense_report_dialog.ui \
 	/Users/adolgina/untitled1/ui/mainwindow.ui \
 	/Users/adolgina/untitled1/ui/report_dialog.ui \
 	/Users/adolgina/untitled1/ui/upload_receipt_dialog.ui \

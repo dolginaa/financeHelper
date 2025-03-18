@@ -1,9 +1,13 @@
-/*#include "upload_receipt_dialog.h"
+#include "upload_receipt_dialog.h"
 #include "ui_upload_receipt_dialog.h"
-#include <QFileDialog>
+#include "api.h"
 
-UploadReceiptDialog::UploadReceiptDialog(QWidget *parent)
-    : QDialog(parent), ui(new Ui::UploadReceiptDialog) {
+#include <QFileDialog>
+#include <QMessageBox>
+
+UploadReceiptDialog::UploadReceiptDialog(QWidget *parent) :
+    QDialog(parent),
+    ui(new Ui::UploadReceiptDialog) {
     ui->setupUi(this);
 }
 
@@ -11,22 +15,18 @@ UploadReceiptDialog::~UploadReceiptDialog() {
     delete ui;
 }
 
-QString UploadReceiptDialog::getFilePath() const {
-    return ui->filePathEdit->text();
-}
-
-void UploadReceiptDialog::on_browseButton_clicked() {
-    QString filePath = QFileDialog::getOpenFileName(this, "Выберите изображение чека", "", "Изображения (*.png *.jpg *.jpeg)");
-    if (!filePath.isEmpty()) {
-        ui->filePathEdit->setText(filePath);
-    }
+void UploadReceiptDialog::on_selectFileButton_clicked() {
+    selectedFilePath = QFileDialog::getOpenFileName(this, "Выбрать чек", "", "Изображения (*.png *.jpg *.jpeg)");
+    ui->fileLabel->setText(selectedFilePath);
 }
 
 void UploadReceiptDialog::on_uploadButton_clicked() {
-    accept();
-}
+    if (selectedFilePath.isEmpty()) {
+        QMessageBox::warning(this, "Ошибка", "Выберите файл перед загрузкой.");
+        return;
+    }
 
-void UploadReceiptDialog::on_cancelButton_clicked() {
-    reject();
+    AddReceipt(selectedFilePath.toStdString(), 1);
+    QMessageBox::information(this, "Успех", "Чек успешно загружен.");
+    close();
 }
-*/

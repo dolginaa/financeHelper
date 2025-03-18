@@ -38,7 +38,7 @@ constexpr auto qt_meta_stringdata_CLASSReportDialogENDCLASS = QtMocHelpers::stri
     "ReportDialog",
     "on_generateButton_clicked",
     "",
-    "on_cancelButton_clicked"
+    "on_exportButton_clicked"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -80,7 +80,7 @@ Q_CONSTINIT const QMetaObject ReportDialog::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<ReportDialog, std::true_type>,
         // method 'on_generateButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_cancelButton_clicked'
+        // method 'on_exportButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -93,7 +93,7 @@ void ReportDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         (void)_t;
         switch (_id) {
         case 0: _t->on_generateButton_clicked(); break;
-        case 1: _t->on_cancelButton_clicked(); break;
+        case 1: _t->on_exportButton_clicked(); break;
         default: ;
         }
     }

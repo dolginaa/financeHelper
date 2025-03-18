@@ -43,6 +43,18 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 set(PROJECT_SOURCES
         main.cpp
         ui/mainwindow.ui
+        ui/add_income_dialog.ui
+        ui/report_dialog.ui
+        ui/expense_report_dialog.ui
+        ui/upload_receipt_dialog.ui
+)
+
+list(APPEND PROJECT_SOURCES
+    ui/add_income_dialog.ui
+    ui/report_dialog.ui
+    ui/upload_receipt_dialog.ui
+    ui/expense_report_dialog.ui
+    ui/mainwindow.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -67,10 +79,14 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ui/report_dialog.cpp
         ui/upload_receipt_dialog.h
         ui/upload_receipt_dialog.cpp
+        ui/expense_report_dialog.cpp
+        ui/expense_report_dialog.h
 
         ui/add_income_dialog.ui
         ui/report_dialog.ui
         ui/upload_receipt_dialog.ui
+        ui/expense_report_dialog.ui
+
         include/mainwindow.h
         src/mainwindow.cpp
         include/api.h
@@ -88,7 +104,7 @@ else()
     endif()
 endif()
 
-target_include_directories(untitled1 PRIVATE include)
+target_include_directories(untitled1 PRIVATE include ui ${CMAKE_BINARY_DIR}/untitled1_autogen/include)
 
 find_package(nlohmann_json REQUIRED)
 target_link_libraries(untitled1 PRIVATE nlohmann_json::nlohmann_json)

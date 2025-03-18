@@ -205,10 +205,24 @@ CMakeFiles/untitled1.dir/ui/upload_receipt_dialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/ui/upload_receipt_dialog.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adolgina/untitled1/ui/upload_receipt_dialog.cpp -o CMakeFiles/untitled1.dir/ui/upload_receipt_dialog.cpp.s
 
+CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.o: /Users/adolgina/untitled1/ui/expense_report_dialog.cpp
+CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.o: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adolgina/untitled1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.o -MF CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.o.d -o CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.o -c /Users/adolgina/untitled1/ui/expense_report_dialog.cpp
+
+CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adolgina/untitled1/ui/expense_report_dialog.cpp > CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.i
+
+CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adolgina/untitled1/ui/expense_report_dialog.cpp -o CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.s
+
 CMakeFiles/untitled1.dir/src/mainwindow.cpp.o: CMakeFiles/untitled1.dir/flags.make
 CMakeFiles/untitled1.dir/src/mainwindow.cpp.o: /Users/adolgina/untitled1/src/mainwindow.cpp
 CMakeFiles/untitled1.dir/src/mainwindow.cpp.o: CMakeFiles/untitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adolgina/untitled1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled1.dir/src/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adolgina/untitled1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/untitled1.dir/src/mainwindow.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled1.dir/src/mainwindow.cpp.o -MF CMakeFiles/untitled1.dir/src/mainwindow.cpp.o.d -o CMakeFiles/untitled1.dir/src/mainwindow.cpp.o -c /Users/adolgina/untitled1/src/mainwindow.cpp
 
 CMakeFiles/untitled1.dir/src/mainwindow.cpp.i: cmake_force
@@ -218,6 +232,20 @@ CMakeFiles/untitled1.dir/src/mainwindow.cpp.i: cmake_force
 CMakeFiles/untitled1.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/src/mainwindow.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adolgina/untitled1/src/mainwindow.cpp -o CMakeFiles/untitled1.dir/src/mainwindow.cpp.s
+
+CMakeFiles/untitled1.dir/src/api.cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/src/api.cpp.o: /Users/adolgina/untitled1/src/api.cpp
+CMakeFiles/untitled1.dir/src/api.cpp.o: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adolgina/untitled1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/untitled1.dir/src/api.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled1.dir/src/api.cpp.o -MF CMakeFiles/untitled1.dir/src/api.cpp.o.d -o CMakeFiles/untitled1.dir/src/api.cpp.o -c /Users/adolgina/untitled1/src/api.cpp
+
+CMakeFiles/untitled1.dir/src/api.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/src/api.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adolgina/untitled1/src/api.cpp > CMakeFiles/untitled1.dir/src/api.cpp.i
+
+CMakeFiles/untitled1.dir/src/api.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/src/api.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adolgina/untitled1/src/api.cpp -o CMakeFiles/untitled1.dir/src/api.cpp.s
 
 # Object files for target untitled1
 untitled1_OBJECTS = \
@@ -230,7 +258,9 @@ untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/ui/add_income_dialog.cpp.o" \
 "CMakeFiles/untitled1.dir/ui/report_dialog.cpp.o" \
 "CMakeFiles/untitled1.dir/ui/upload_receipt_dialog.cpp.o" \
-"CMakeFiles/untitled1.dir/src/mainwindow.cpp.o"
+"CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.o" \
+"CMakeFiles/untitled1.dir/src/mainwindow.cpp.o" \
+"CMakeFiles/untitled1.dir/src/api.cpp.o"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
@@ -244,7 +274,9 @@ untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/src/chart_widge
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/ui/add_income_dialog.cpp.o
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/ui/report_dialog.cpp.o
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/ui/upload_receipt_dialog.cpp.o
+untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.o
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/src/mainwindow.cpp.o
+untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/src/api.cpp.o
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/build.make
 untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/Qt/6.8.0/macos/lib/QtPdf.framework/Versions/A/QtPdf
 untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/Qt/6.8.0/macos/lib/QtPrintSupport.framework/Versions/A/QtPrintSupport
@@ -314,7 +346,7 @@ untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_photo.4.11.0
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_imgproc.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_core.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/adolgina/untitled1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable untitled1.app/Contents/MacOS/untitled1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/adolgina/untitled1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable untitled1.app/Contents/MacOS/untitled1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

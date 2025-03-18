@@ -2,5 +2,6 @@
 #include "6YEA5652QU/moc_chart_widget.cpp"
 #include "6YEA5652QU/moc_mainwindow.cpp"
 #include "UYX5XTB5RZ/moc_add_income_dialog.cpp"
+#include "UYX5XTB5RZ/moc_expense_report_dialog.cpp"
 #include "UYX5XTB5RZ/moc_report_dialog.cpp"
 #include "UYX5XTB5RZ/moc_upload_receipt_dialog.cpp"

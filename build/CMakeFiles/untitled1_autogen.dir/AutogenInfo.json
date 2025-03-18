@@ -492,6 +492,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/adolgina/untitled1/include/api.h",
+			"MU",
+			"6YEA5652QU/moc_api.cpp",
+			null
+		],
+		[
 			"/Users/adolgina/untitled1/include/chart_widget.h",
 			"MU",
 			"6YEA5652QU/moc_chart_widget.cpp",
@@ -525,6 +531,12 @@
 			"/Users/adolgina/untitled1/ui/add_income_dialog.h",
 			"MU",
 			"UYX5XTB5RZ/moc_add_income_dialog.cpp",
+			null
+		],
+		[
+			"/Users/adolgina/untitled1/ui/expense_report_dialog.h",
+			"MU",
+			"UYX5XTB5RZ/moc_expense_report_dialog.cpp",
 			null
 		],
 		[
@@ -568,6 +580,8 @@
 		"/opt/homebrew/opt/leptonica/include",
 		"/opt/homebrew/opt/boost/include",
 		"/Users/adolgina/untitled1/include",
+		"/Users/adolgina/untitled1/ui",
+		"/Users/adolgina/untitled1/build/untitled1_autogen/include",
 		"/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4",
 		"/Users/adolgina/Qt/6.8.0/macos/lib/QtCore.framework/Headers",
 		"/Users/adolgina/Qt/6.8.0/macos/lib/QtCore.framework",
@@ -627,12 +641,14 @@
 	"SOURCES" : 
 	[
 		[ "/Users/adolgina/untitled1/main.cpp", "MU", null ],
+		[ "/Users/adolgina/untitled1/src/api.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/src/chart_widget.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/src/image_processing.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/src/mainwindow.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/src/storage.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/src/text_recognition.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/ui/add_income_dialog.cpp", "MU", null ],
+		[ "/Users/adolgina/untitled1/ui/expense_report_dialog.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/ui/report_dialog.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/ui/upload_receipt_dialog.cpp", "MU", null ]
 	],

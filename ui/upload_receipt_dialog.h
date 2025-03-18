@@ -1,7 +1,7 @@
 #ifndef UPLOAD_RECEIPT_DIALOG_H
 #define UPLOAD_RECEIPT_DIALOG_H
 
-/*#include <QDialog>
+#include <QDialog>
 
 namespace Ui {
 class UploadReceiptDialog;
@@ -14,15 +14,13 @@ public:
     explicit UploadReceiptDialog(QWidget *parent = nullptr);
     ~UploadReceiptDialog();
 
-    QString getFilePath() const;
-
 private slots:
-    void on_browseButton_clicked();
+    void on_selectFileButton_clicked();
     void on_uploadButton_clicked();
-    void on_cancelButton_clicked();
 
 private:
     Ui::UploadReceiptDialog *ui;
-};*/
+    QString selectedFilePath;
+};
 
 #endif // UPLOAD_RECEIPT_DIALOG_H

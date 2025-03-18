@@ -1287,6 +1287,35 @@ CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.o: \
   /Users/adolgina/untitled1/build/untitled1_autogen/UYX5XTB5RZ/../../../ui/add_income_dialog.h \
   /Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/QDialog \
   /Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers/qdialog.h \
+  /Users/adolgina/untitled1/build/untitled1_autogen/UYX5XTB5RZ/moc_expense_report_dialog.cpp \
+  /Users/adolgina/untitled1/build/untitled1_autogen/UYX5XTB5RZ/../../../ui/expense_report_dialog.h \
+  /Users/adolgina/untitled1/build/untitled1_autogen/include/ui_expense_report_dialog.h \
+  /opt/homebrew/include/QtWidgets/QAbstractButton \
+  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
+  /opt/homebrew/include/QtWidgets/QApplication \
+  /opt/homebrew/include/QtWidgets/qapplication.h \
+  /opt/homebrew/include/QtWidgets/QDateEdit \
+  /opt/homebrew/include/QtWidgets/qdatetimeedit.h \
+  /opt/homebrew/include/QtCore/qtimezone.h \
+  /opt/homebrew/include/QtCore/qdatetime.h \
+  /opt/homebrew/include/QtCore/qcalendar.h \
+  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
+  /opt/homebrew/include/QtGui/qvalidator.h \
+  /opt/homebrew/include/QtCore/qregularexpression.h \
+  /opt/homebrew/include/QtWidgets/QDialog \
+  /opt/homebrew/include/QtWidgets/qdialog.h \
+  /opt/homebrew/include/QtWidgets/QDialogButtonBox \
+  /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
+  /opt/homebrew/include/QtWidgets/QLabel \
+  /opt/homebrew/include/QtWidgets/qlabel.h \
+  /opt/homebrew/include/QtGui/qpicture.h \
+  /opt/homebrew/include/QtGui/qtextdocument.h \
+  /opt/homebrew/include/QtWidgets/QPushButton \
+  /opt/homebrew/include/QtWidgets/qpushbutton.h \
+  /opt/homebrew/include/QtWidgets/QTextEdit \
+  /opt/homebrew/include/QtWidgets/qtextedit.h \
+  /opt/homebrew/include/QtGui/qtextcursor.h \
+  /opt/homebrew/include/QtGui/qtextformat.h \
   /Users/adolgina/untitled1/build/untitled1_autogen/UYX5XTB5RZ/moc_report_dialog.cpp \
   /Users/adolgina/untitled1/build/untitled1_autogen/UYX5XTB5RZ/../../../ui/report_dialog.h \
   /Users/adolgina/untitled1/build/untitled1_autogen/UYX5XTB5RZ/moc_upload_receipt_dialog.cpp \

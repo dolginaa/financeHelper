@@ -3,7 +3,7 @@
 
 #include <QDialog>
 
-/*namespace Ui {
+namespace Ui {
 class AddIncomeDialog;
 }
 
@@ -14,15 +14,12 @@ public:
     explicit AddIncomeDialog(QWidget *parent = nullptr);
     ~AddIncomeDialog();
 
-    double getAmount() const;
-    QString getFrequency() const;
-
 private slots:
-    void on_okButton_clicked();
+    void on_addButton_clicked();
     void on_cancelButton_clicked();
 
 private:
     Ui::AddIncomeDialog *ui;
-};*/
+};
 
 #endif // ADD_INCOME_DIALOG_H

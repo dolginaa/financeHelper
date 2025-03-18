@@ -1,7 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-/*#include <QMainWindow>
+#include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -20,9 +20,10 @@ private slots:
     void on_addIncomeButton_clicked();
     void on_generateReportButton_clicked();
     void on_uploadReceiptButton_clicked();
+    void on_generateExpenseReportButton_clicked();
 
 private:
     Ui::MainWindow *ui;
-};*/
+};
 
 #endif // MAINWINDOW_H

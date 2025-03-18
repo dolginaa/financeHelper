@@ -224,6 +224,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/api.o: src/api.cpp.o
+.PHONY : src/api.o
+
+# target to build an object file
+src/api.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/src/api.cpp.o
+.PHONY : src/api.cpp.o
+
+src/api.i: src/api.cpp.i
+.PHONY : src/api.i
+
+# target to preprocess a source file
+src/api.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/src/api.cpp.i
+.PHONY : src/api.cpp.i
+
+src/api.s: src/api.cpp.s
+.PHONY : src/api.s
+
+# target to generate assembly for a file
+src/api.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/src/api.cpp.s
+.PHONY : src/api.cpp.s
+
 src/chart_widget.o: src/chart_widget.cpp.o
 .PHONY : src/chart_widget.o
 
@@ -368,6 +392,30 @@ ui/add_income_dialog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/ui/add_income_dialog.cpp.s
 .PHONY : ui/add_income_dialog.cpp.s
 
+ui/expense_report_dialog.o: ui/expense_report_dialog.cpp.o
+.PHONY : ui/expense_report_dialog.o
+
+# target to build an object file
+ui/expense_report_dialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.o
+.PHONY : ui/expense_report_dialog.cpp.o
+
+ui/expense_report_dialog.i: ui/expense_report_dialog.cpp.i
+.PHONY : ui/expense_report_dialog.i
+
+# target to preprocess a source file
+ui/expense_report_dialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.i
+.PHONY : ui/expense_report_dialog.cpp.i
+
+ui/expense_report_dialog.s: ui/expense_report_dialog.cpp.s
+.PHONY : ui/expense_report_dialog.s
+
+# target to generate assembly for a file
+ui/expense_report_dialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/ui/expense_report_dialog.cpp.s
+.PHONY : ui/expense_report_dialog.cpp.s
+
 ui/report_dialog.o: ui/report_dialog.cpp.o
 .PHONY : ui/report_dialog.o
 
@@ -458,6 +506,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/api.o"
+	@echo "... src/api.i"
+	@echo "... src/api.s"
 	@echo "... src/chart_widget.o"
 	@echo "... src/chart_widget.i"
 	@echo "... src/chart_widget.s"
@@ -476,6 +527,9 @@ help:
 	@echo "... ui/add_income_dialog.o"
 	@echo "... ui/add_income_dialog.i"
 	@echo "... ui/add_income_dialog.s"
+	@echo "... ui/expense_report_dialog.o"
+	@echo "... ui/expense_report_dialog.i"
+	@echo "... ui/expense_report_dialog.s"
 	@echo "... ui/report_dialog.o"
 	@echo "... ui/report_dialog.i"
 	@echo "... ui/report_dialog.s"

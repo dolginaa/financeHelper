@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled1_autogen"
   "untitled1_autogen/include/ui/ui_add_income_dialog.h"
+  "untitled1_autogen/include/ui/ui_expense_report_dialog.h"
   "untitled1_autogen/include/ui/ui_mainwindow.h"
   "untitled1_autogen/include/ui/ui_report_dialog.h"
   "untitled1_autogen/include/ui/ui_upload_receipt_dialog.h"

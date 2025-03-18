@@ -1,28 +1,37 @@
-/*#include "add_income_dialog.h"
+#include "add_income_dialog.h"
 #include "ui_add_income_dialog.h"
+#include "api.h"
 
-AddIncomeDialog::AddIncomeDialog(QWidget *parent)
-    : QDialog(parent), ui(new Ui::AddIncomeDialog) {
+#include <QMessageBox>
+
+AddIncomeDialog::AddIncomeDialog(QWidget *parent) :
+    QDialog(parent),
+    ui(new Ui::AddIncomeDialog) {
     ui->setupUi(this);
+    ui->incomeFrequency->addItem("daily");
+    ui->incomeFrequency->addItem("monthly");
+    ui->incomeFrequency->addItem("yearly");
+
 }
 
 AddIncomeDialog::~AddIncomeDialog() {
     delete ui;
 }
 
-double AddIncomeDialog::getAmount() const {
-    return ui->incomeAmount->value();
-}
+void AddIncomeDialog::on_addButton_clicked() {
+    double amount = ui->incomeAmount->text().toDouble();
+    QString frequency = ui->incomeFrequency->currentText();
 
-QString AddIncomeDialog::getFrequency() const {
-    return ui->incomeFrequency->currentText();
-}
+    if (amount <= 0) {
+        QMessageBox::warning(this, "Ошибка", "Введите корректную сумму дохода.");
+        return;
+    }
 
-void AddIncomeDialog::on_okButton_clicked() {
-    accept();
+    AddIncome(1, amount, frequency.toStdString());  // userId = 1 (замени на реальный)
+    QMessageBox::information(this, "Успех", "Доход успешно добавлен.");
+    close();
 }
 
 void AddIncomeDialog::on_cancelButton_clicked() {
-    reject();
+    close();
 }
-*/

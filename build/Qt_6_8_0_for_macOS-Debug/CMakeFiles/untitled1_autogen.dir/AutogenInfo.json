@@ -422,6 +422,12 @@
 			null
 		],
 		[
+			"/Users/adolgina/untitled1/ui/expense_report_dialog.h",
+			"MU",
+			"UYX5XTB5RZ/moc_expense_report_dialog.cpp",
+			null
+		],
+		[
 			"/Users/adolgina/untitled1/ui/report_dialog.h",
 			"MU",
 			"UYX5XTB5RZ/moc_report_dialog.cpp",
@@ -461,6 +467,8 @@
 		"/opt/homebrew/opt/leptonica/include",
 		"/opt/homebrew/opt/boost/include",
 		"/Users/adolgina/untitled1/include",
+		"/Users/adolgina/untitled1/ui",
+		"/Users/adolgina/untitled1/build/Qt_6_8_0_for_macOS-Debug/untitled1_autogen/include",
 		"/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4",
 		"/Users/adolgina/Qt/6.8.0/macos/lib/QtCore.framework/Headers",
 		"/Users/adolgina/Qt/6.8.0/macos/lib/QtCore.framework",
@@ -525,6 +533,7 @@
 		[ "/Users/adolgina/untitled1/src/storage.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/src/text_recognition.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/ui/add_income_dialog.cpp", "MU", null ],
+		[ "/Users/adolgina/untitled1/ui/expense_report_dialog.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/ui/report_dialog.cpp", "MU", null ],
 		[ "/Users/adolgina/untitled1/ui/upload_receipt_dialog.cpp", "MU", null ]
 	],

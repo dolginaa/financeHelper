@@ -1,27 +1,26 @@
-#include "include/mainwindow.h"
 #include <QApplication>
-#include <QPdfWriter>
-#include <QPainter>
-#include <tesseract/baseapi.h>
-#include <opencv2/opencv.hpp>
-#include <iostream>
-#include <string>
-#include <leptonica/allheaders.h>
-#include "api.h"
-
+#include "add_income_dialog.h"
+#include "report_dialog.h"
+#include "upload_receipt_dialog.h"
+#include "mainwindow.h"
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
-    std::string imagePath = "/Users/adolgina/Desktop/recipe11.jpg";
+
+    //std::string imagePath = "/Users/adolgina/Desktop/recipe11.jpg";
     //std::string imagePath = "/Users/adolgina/Desktop/recipe12.jpg";
 
-    //AddReceipt(imagePath, 1);
-    //AddIncome(1, 1000, "daily");
+    MainWindow w;
+    w.show();
 
-    std::string res = GetReport(1, "2025-03-14", "2025-03-19");
+    /*AddIncomeDialog incomeDialog;
+    incomeDialog.exec();
 
-    std::cout << "Тестовый вывод\n" << std::endl;
+    ReportDialog reportDialog;
+    reportDialog.exec();
+
+    UploadReceiptDialog receiptDialog;
+    receiptDialog.exec();*/
 
     return a.exec();
 }
-
