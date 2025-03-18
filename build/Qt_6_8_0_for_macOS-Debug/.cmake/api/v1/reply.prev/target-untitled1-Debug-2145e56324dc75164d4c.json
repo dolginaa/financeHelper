@@ -1,0 +1,1162 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "untitled1.app/Contents/MacOS/untitled1"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_third_party_dependencies",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6/Qt6Config.cmake",
+			"/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindCups.cmake",
+			"/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6Charts/Qt6ChartsTargets.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"/Users/adolgina/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 957,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 644,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 703,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 181,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 55,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 62,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 10
+			},
+			{
+				"file" : 8,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 35,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 36,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 17
+			},
+			{
+				"file" : 5,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 96,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 181,
+				"parent" : 8
+			},
+			{
+				"file" : 10,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 55,
+				"parent" : 22
+			},
+			{
+				"file" : 9,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 62,
+				"parent" : 24
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 181,
+				"parent" : 8
+			},
+			{
+				"file" : 13,
+				"parent" : 26
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 43,
+				"parent" : 27
+			},
+			{
+				"file" : 12,
+				"parent" : 28
+			},
+			{
+				"command" : 10,
+				"file" : 12,
+				"line" : 35,
+				"parent" : 29
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 36,
+				"parent" : 30
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 31
+			},
+			{
+				"file" : 11,
+				"parent" : 32
+			},
+			{
+				"command" : 5,
+				"file" : 11,
+				"line" : 48,
+				"parent" : 33
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 55,
+				"parent" : 27
+			},
+			{
+				"file" : 14,
+				"parent" : 35
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 62,
+				"parent" : 36
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 645,
+				"parent" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 181,
+				"parent" : 8
+			},
+			{
+				"file" : 16,
+				"parent" : 39
+			},
+			{
+				"command" : 7,
+				"file" : 16,
+				"line" : 57,
+				"parent" : 40
+			},
+			{
+				"file" : 15,
+				"parent" : 41
+			},
+			{
+				"command" : 6,
+				"file" : 15,
+				"line" : 62,
+				"parent" : 42
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 93,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "QT_CHARTS_LIB"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGLWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_PDF_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"backtrace" : 38,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtCore.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtGui.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtPdf.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtPrintSupport.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtCharts.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtOpenGL.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtOpenGLWidgets.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/adolgina/untitled1/build/Qt_6_8_0_for_macOS-Debug/untitled1_autogen/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/opt/homebrew/opt/tesseract/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/opt/homebrew/opt/leptonica/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/opt/homebrew/opt/boost/include"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "/Users/adolgina/untitled1/include"
+				},
+				{
+					"backtrace" : 46,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4"
+				},
+				{
+					"backtrace" : 38,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 38,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/mkspecs/macx-clang"
+				},
+				{
+					"backtrace" : 38,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/include"
+				},
+				{
+					"backtrace" : 47,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtGui.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtPdf.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtPrintSupport.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtCharts.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtOpenGL.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtOpenGLWidgets.framework/Headers"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					38,
+					38,
+					47
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				5,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				21
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "untitled1_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "untitled1_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "untitled1::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "."
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-F/Users/adolgina/Qt/6.8.0/macos/lib",
+				"role" : "frameworkPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/adolgina/Qt/6.8.0/macos/lib -Wl,-rpath,/opt/homebrew/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtPdf.framework/Versions/A/QtPdf",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtPrintSupport.framework/Versions/A/QtPrintSupport",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtCharts.framework/Versions/A/QtCharts",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/opt/tesseract/lib/libtesseract.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/opt/leptonica/lib/libleptonica.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_gapi.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_stitching.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_alphamat.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_aruco.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_bgsegm.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_bioinspired.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_ccalib.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_dnn_objdetect.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_dnn_superres.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_dpm.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_face.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_freetype.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_fuzzy.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_hfs.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_img_hash.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_intensity_transform.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_line_descriptor.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_mcc.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_quality.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_rapid.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_reg.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_rgbd.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_saliency.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_sfm.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_signal.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_stereo.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_structured_light.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_superres.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_surface_matching.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_tracking.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_videostab.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_viz.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_wechat_qrcode.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_xfeatures2d.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_xobjdetect.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_xphoto.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-framework ApplicationServices",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libcups.tbd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtOpenGL.framework/Versions/A/QtOpenGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "-framework OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework AGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-framework AppKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-framework ImageIO",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-framework Metal",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/Users/adolgina/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 43,
+				"fragment" : "-framework IOKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 43,
+				"fragment" : "-framework DiskArbitration",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 43,
+				"fragment" : "-framework UniformTypeIdentifiers",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_shape.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_highgui.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_datasets.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_plot.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_text.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_ml.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_phase_unwrapping.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_optflow.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_ximgproc.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_video.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_videoio.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_imgcodecs.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_objdetect.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_calib3d.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_dnn.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_features2d.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_flann.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_photo.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_imgproc.4.11.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/libopencv_core.4.11.0.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "untitled1",
+	"nameOnDisk" : "untitled1",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				5,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				21
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2,
+				17,
+				18,
+				19,
+				27
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				7,
+				9,
+				11,
+				13,
+				15,
+				20,
+				22,
+				23,
+				24,
+				25,
+				26
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				28
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_0_for_macOS-Debug/untitled1_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "ui/mainwindow.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "include/image_processing.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "include/text_recognition.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/image_processing.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/text_recognition.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "include/storage.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/storage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "include/chart_widget.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/chart_widget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "ui/add_income_dialog.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "ui/add_income_dialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "ui/report_dialog.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "ui/report_dialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "ui/upload_receipt_dialog.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "ui/upload_receipt_dialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "ui/add_income_dialog.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "ui/report_dialog.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "ui/upload_receipt_dialog.ui",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "include/mainwindow.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/mainwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "include/api.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_0_for_macOS-Debug/untitled1_autogen/include/ui/ui_mainwindow.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_0_for_macOS-Debug/untitled1_autogen/include/ui/ui_add_income_dialog.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_0_for_macOS-Debug/untitled1_autogen/include/ui/ui_report_dialog.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_0_for_macOS-Debug/untitled1_autogen/include/ui/ui_upload_receipt_dialog.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_0_for_macOS-Debug/untitled1_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_0_for_macOS-Debug/untitled1_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}

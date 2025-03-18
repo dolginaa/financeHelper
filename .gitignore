@@ -1,0 +1,23 @@
+# Qt build files
+*.pro.user
+*.obj
+*.o
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.app
+*.qmake.stash
+*.qmake.cache
+*.moc
+*.qrc
+*.rcc
+*.res
+
+# Qt Creator
+.idea/
+*.pro.user*
+*.qbs.user*
+

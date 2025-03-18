@@ -1,0 +1,9 @@
+/Users/adolgina/untitled1/build/CMakeFiles/untitled1.dir
+/Users/adolgina/untitled1/build/CMakeFiles/edit_cache.dir
+/Users/adolgina/untitled1/build/CMakeFiles/rebuild_cache.dir
+/Users/adolgina/untitled1/build/CMakeFiles/list_install_components.dir
+/Users/adolgina/untitled1/build/CMakeFiles/install.dir
+/Users/adolgina/untitled1/build/CMakeFiles/install/local.dir
+/Users/adolgina/untitled1/build/CMakeFiles/install/strip.dir
+/Users/adolgina/untitled1/build/CMakeFiles/untitled1_autogen_timestamp_deps.dir
+/Users/adolgina/untitled1/build/CMakeFiles/untitled1_autogen.dir
