@@ -934,55 +934,6 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
   /Users/adolgina/untitled1/src/mainwindow.cpp \
   /Users/adolgina/untitled1/src/storage.cpp \
   /Users/adolgina/untitled1/src/text_recognition.cpp \
-  /Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestConfig.cmake \
-  /Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestConfigVersion.cmake \
-  /Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestTargets-release.cmake \
-  /Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestTargets.cmake \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/adl_serializer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/abi_macros.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/exceptions.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/hash.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/lexer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/parser.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/position_t.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_pointer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_ref.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_scope.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/detected.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/serializer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_concat.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_escape.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/value_t.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json_fwd.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/ordered_map.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
   /Users/adolgina/untitled1/ui/add_income_dialog.cpp \
   /Users/adolgina/untitled1/ui/add_income_dialog.h \
   /Users/adolgina/untitled1/ui/add_income_dialog.ui \
@@ -1194,11 +1145,59 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
   /opt/anaconda3/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake \
   /opt/anaconda3/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake \
   /opt/anaconda3/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QCocoaPrinterSupportPlugin.cmake \
+  /opt/anaconda3/lib/cmake/Qt5Test/Qt5TestConfig.cmake \
+  /opt/anaconda3/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake \
+  /opt/anaconda3/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake \
   /opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
   /opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
   /opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
   /opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
   /opt/anaconda3/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/adl_serializer.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/byte_container_with_subtype.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/abi_macros.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/from_json.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_chars.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_json.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/exceptions.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/hash.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/binary_reader.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/input_adapters.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/json_sax.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/lexer.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/parser.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/position_t.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_custom_base_class.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_pointer.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_ref.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_scope.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_unscope.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/end.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/cpp_future.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/detected.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/identity_tag.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/is_sax.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/std_fs.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/type_traits.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/void_t.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/binary_writer.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/output_adapters.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/serializer.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_concat.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_escape.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/value_t.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json_fwd.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/ordered_map.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
   /opt/homebrew/bin/cmake \
   /opt/homebrew/lib/cmake/opencv4/OpenCVConfig-version.cmake \
   /opt/homebrew/lib/cmake/opencv4/OpenCVConfig.cmake \
@@ -1216,7 +1215,6 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
   /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake \
@@ -1230,9 +1228,6 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
   /opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake \
-  /opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
-  /opt/homebrew/share/cmake/Modules/CheckIncludeFileCXX.cmake \
-  /opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
@@ -1276,16 +1271,12 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
   /opt/homebrew/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/FindGTest.cmake \
   /opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake \
-  /opt/homebrew/share/cmake/Modules/FindThreads.cmake \
   /opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake \
-  /opt/homebrew/share/cmake/Modules/GoogleTest.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
-  /opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake \
   /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake \
@@ -1315,17 +1306,11 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
 
 /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake:
 
-/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
-
 /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake:
 
 /opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake:
 
-/opt/homebrew/share/cmake/Modules/FindThreads.cmake:
-
 /opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake:
-
-/opt/homebrew/share/cmake/Modules/FindGTest.cmake:
 
 /opt/homebrew/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
 
@@ -1373,8 +1358,6 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
 
 /opt/homebrew/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
 
-/opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake:
-
 /opt/homebrew/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
@@ -1384,8 +1367,6 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
 /opt/homebrew/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:
 
@@ -1405,7 +1386,59 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
 
 /opt/homebrew/bin/cmake:
 
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/ordered_map.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_concat.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/output_adapters.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/void_t.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/std_fs.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/identity_tag.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/end.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/begin.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_unscope.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_custom_base_class.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iterator_traits.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/position_t.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/lexer.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/json_sax.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/input_adapters.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/binary_reader.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/exceptions.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_json.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_chars.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/from_json.hpp:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/abi_macros.hpp:
+
 /opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake:
+
+/opt/anaconda3/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake:
+
+/opt/anaconda3/lib/cmake/Qt5Test/Qt5TestConfig.cmake:
 
 /opt/anaconda3/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake:
 
@@ -1475,7 +1508,7 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
 
 /opt/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h:
 
-/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/serializer.hpp:
 
 /opt/anaconda3/include/qt/QtWidgets/QTextEdit:
 
@@ -1530,6 +1563,8 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
 /opt/anaconda3/include/qt/QtGui/qrgb.h:
 
 /opt/anaconda3/include/qt/QtGui/QBrush:
+
+/opt/anaconda3/include/qt/QtCore/qvector.h:
 
 /opt/anaconda3/include/qt/QtCore/qtypeinfo.h:
 
@@ -1595,6 +1630,12 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
 
 /opt/anaconda3/include/qt/QtCore/qchar.h:
 
+/opt/anaconda3/include/qt/QtCore/qcalendar.h:
+
+/opt/anaconda3/include/qt/QtGui/qpixmap.h:
+
+/opt/anaconda3/include/qt/QtCore/qbasicatomic.h:
+
 /opt/anaconda3/include/qt/QtCore/qalgorithms.h:
 
 /opt/anaconda3/include/qt/QtCore/QtGlobal:
@@ -1625,6 +1666,8 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
 
 /Users/adolgina/untitled1/ui/upload_receipt_dialog.h:
 
+/Users/adolgina/untitled1/ui/upload_receipt_dialog.cpp:
+
 /Users/adolgina/untitled1/ui/report_dialog.ui:
 
 /Users/adolgina/untitled1/ui/report_dialog.h:
@@ -1639,67 +1682,9 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
 
 /Users/adolgina/untitled1/ui/add_income_dialog.h:
 
-/opt/anaconda3/include/qt/QtCore/qcalendar.h:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/ordered_map.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json_fwd.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json.hpp:
-
-/opt/anaconda3/include/qt/QtCore/qvector.h:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/value_t.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_escape.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_concat.hpp:
-
-/opt/anaconda3/include/qt/QtGui/qpixmap.h:
-
-/opt/anaconda3/include/qt/QtCore/qbasicatomic.h:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_scope.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_pointer.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/parser.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/hash.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/exceptions.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/abi_macros.hpp:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/adl_serializer.hpp:
-
-/Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestTargets.cmake:
-
-/Users/adolgina/untitled1/ui/upload_receipt_dialog.cpp:
-
-/Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestTargets-release.cmake:
-
-/Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestConfig.cmake:
-
 /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
 
 /Users/adolgina/untitled1/src/storage.cpp:
 
@@ -1715,8 +1700,6 @@ untitled1_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
 
 /Users/adolgina/untitled1/include/image_processing.h:
 
-/opt/homebrew/share/cmake/Modules/GoogleTest.cmake:
-
 /Users/adolgina/untitled1/include/chart_widget.h:
 
 untitled1_autogen/moc_predefs.h:
@@ -1731,8 +1714,6 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/lexer.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_header_macro.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg___gnuc_va_list.h:
@@ -1742,8 +1723,6 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/qos.h:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/position_t.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:
 
@@ -1793,8 +1772,6 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /opt/anaconda3/include/qt/QtGui/qguiapplication.h:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_port_t.h:
 
 /opt/anaconda3/include/qt/QtCore/qarraydata.h:
@@ -1819,11 +1796,7 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h:
 
@@ -1905,6 +1878,8 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:
 
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_ref.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/optional:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h:
@@ -1975,11 +1950,11 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/in_place.h:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_ref.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json_fwd.hpp:
 
 /opt/anaconda3/include/qt/QtCore/qfiledevice.h:
 
@@ -2079,6 +2054,8 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/lazy.h:
 
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/cpp_future.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_void.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h:
@@ -2161,8 +2138,6 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_member_pointer.h:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_member_function_pointer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
@@ -2184,8 +2159,6 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 /opt/homebrew/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
 
 /opt/anaconda3/include/qt/QtWidgets/qgraphicsitem.h:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/sstream.h:
 
@@ -2323,6 +2296,8 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const.h:
 
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iteration_proxy.hpp:
+
 /opt/anaconda3/include/qt/QtCore/qbytearray.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/unicode.h:
@@ -2383,6 +2358,8 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque:
 
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iter_impl.hpp:
+
 /opt/anaconda3/include/qt/QtGui/qvalidator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h:
@@ -2398,6 +2375,8 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
+
+/opt/anaconda3/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h:
 
@@ -2426,6 +2405,8 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/lock_guard.h:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/is_sax.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
 
@@ -2659,8 +2640,6 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/indirectly_comparable.h:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/detected.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
@@ -2704,8 +2683,6 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform_reduce.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/width_estimation_table.h:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_class.h:
 
@@ -2779,8 +2756,6 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/invoke.h:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/serializer.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_move.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:
@@ -2792,8 +2767,6 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 
 /opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
@@ -2825,9 +2798,9 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_time.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_escape.hpp:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/any:
 
@@ -2840,6 +2813,8 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder2nd.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/value_t.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
@@ -2917,8 +2892,6 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way.h:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/access.h:
 
 /opt/anaconda3/include/qt/QtWidgets/QLabel:
@@ -2965,13 +2938,13 @@ CMakeFiles/3.31.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace.h:
 
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/byte_container_with_subtype.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_volatile.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/monthday.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cv.h:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/literals.h:
 
@@ -3003,8 +2976,6 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h:
@@ -3026,8 +2997,6 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/ref_view.h:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h:
 
@@ -3165,6 +3134,8 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
 
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/detected.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_transform.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h:
@@ -3257,9 +3228,9 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_starts_with.h:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/reduce.h:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/parser.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_parse_context.h:
 
@@ -3325,6 +3296,8 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
 
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/type_traits.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
@@ -3376,8 +3349,6 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib:
 
@@ -3451,6 +3422,8 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_fill_n.h:
 
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/binary_writer.hpp:
+
 /opt/anaconda3/include/qt/QtGui/QPen:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h:
@@ -3458,6 +3431,8 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mbstate_t.h:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/adl_serializer.hpp:
 
 /opt/anaconda3/include/qt/QtWidgets/qgraphicswidget.h:
 
@@ -3531,8 +3506,6 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
 
-/Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestConfigVersion.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_mismatch.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
@@ -3571,8 +3544,6 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /opt/anaconda3/include/qt/QtGui/qmatrix.h:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h:
@@ -3603,13 +3574,9 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
-/opt/homebrew/share/cmake/Modules/CheckIncludeFileCXX.cmake:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/sortable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_for_each.h:
-
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
 
@@ -3649,6 +3616,8 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /opt/homebrew/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
 
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/internal_iterator.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_copy.h:
@@ -3664,6 +3633,8 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/merge.h:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_pointer.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h:
 
@@ -3787,8 +3758,6 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/relation.h:
@@ -3823,6 +3792,8 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
 
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/hash.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_min.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/size.h:
@@ -3840,6 +3811,8 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_char.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/access.h:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/primitive_iterator.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_types.h:
 
@@ -3877,8 +3850,6 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 
 /opt/homebrew/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake:
 
-/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_equal_range.h:
@@ -3898,6 +3869,8 @@ CMakeFiles/3.31.3/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_partial_order_fallback.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:
+
+/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_scope.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
 

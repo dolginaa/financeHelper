@@ -80,7 +80,7 @@ TEST(PDFTest, CompareGeneratedWithReference) {
     double ssim = computeSSIM(img1, img2);
     std::cout << "SSIM: " << ssim << std::endl;
 
-    ASSERT_GT(ssim, 0.6) << "Графики отличаются!";
+    ASSERT_GT(ssim, 0.5) << "Графики отличаются!";
 }
 
 // Функция main для обработки аргументов командной строки

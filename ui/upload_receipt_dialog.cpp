@@ -15,9 +15,20 @@ UploadReceiptDialog::~UploadReceiptDialog() {
     delete ui;
 }
 
+QString UploadReceiptDialog::getSelectedFilePath() const {
+    return selectedFilePath;
+}
+
+void UploadReceiptDialog::setSelectedFilePath(const QString &path) {
+    selectedFilePath = path;
+}
+
 void UploadReceiptDialog::on_selectFileButton_clicked() {
-    selectedFilePath = QFileDialog::getOpenFileName(this, "Выбрать чек", "", "Изображения (*.png *.jpg *.jpeg)");
-    ui->fileLabel->setText(selectedFilePath);
+    QString filePath = QFileDialog::getOpenFileName(this, "Выбрать чек", "", "Изображения (*.png *.jpg *.jpeg)");
+    if (!filePath.isEmpty()) {
+        setSelectedFilePath(filePath);  // Используем сеттер
+        ui->fileLabel->setText(getSelectedFilePath());  // Используем геттер
+    }
 }
 
 void UploadReceiptDialog::on_uploadButton_clicked() {

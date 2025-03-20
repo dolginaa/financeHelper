@@ -3838,51 +3838,6 @@
  mdp:/Users/adolgina/untitled1/build/untitled1_autogen/moc_predefs.h
  mdp:/Users/adolgina/untitled1/include/chart_widget.h
  mdp:/Users/adolgina/untitled1/include/storage.h
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/adl_serializer.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/abi_macros.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/exceptions.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/hash.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/lexer.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/parser.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/position_t.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_pointer.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_ref.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_scope.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/detected.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/serializer.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_concat.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_escape.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/value_t.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json_fwd.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/ordered_map.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp
- mdp:/Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
  mdp:/opt/anaconda3/include/qt/QtCharts/QAbstractAxis
  mdp:/opt/anaconda3/include/qt/QtCharts/QAbstractSeries
  mdp:/opt/anaconda3/include/qt/QtCharts/QChart
@@ -4011,6 +3966,51 @@
  mdp:/opt/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
  mdp:/opt/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
  mdp:/opt/anaconda3/include/qt/QtWidgets/qwidget.h
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/adl_serializer.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/byte_container_with_subtype.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/abi_macros.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/from_json.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_chars.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_json.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/exceptions.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/hash.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/binary_reader.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/input_adapters.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/json_sax.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/lexer.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/parser.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/position_t.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/internal_iterator.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iter_impl.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iteration_proxy.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iterator_traits.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/primitive_iterator.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_custom_base_class.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_pointer.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_ref.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_scope.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_unscope.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/begin.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/end.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/cpp_future.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/detected.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/identity_tag.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/is_sax.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/std_fs.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/type_traits.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/void_t.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/binary_writer.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/output_adapters.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/serializer.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_concat.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_escape.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/value_t.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json_fwd.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/ordered_map.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley.hpp
+ mdp:/opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 /Users/adolgina/untitled1/ui/upload_receipt_dialog.h
  mmc:Q_OBJECT
  mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h

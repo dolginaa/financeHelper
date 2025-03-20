@@ -11,6 +11,9 @@ class UploadReceiptDialog : public QDialog {
     Q_OBJECT
 
 public:
+    QString getSelectedFilePath() const;
+    void setSelectedFilePath(const QString &path);
+
     explicit UploadReceiptDialog(QWidget *parent = nullptr);
     ~UploadReceiptDialog();
 

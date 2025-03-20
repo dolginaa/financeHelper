@@ -29,8 +29,8 @@ set(BOOST_LIB_DIR "${BOOST_PREFIX_PATH}/lib")
 set(POPPLER_INCLUDE_DIR "${POPPLER_PREFIX_PATH}/include")
 set(POPPLER_LIB_DIR "${POPPLER_PREFIX_PATH}/lib")
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Gui Widgets Pdf Charts PrintSupport)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Gui Widgets Pdf Charts PrintSupport)
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport)
 find_package(OpenCV REQUIRED)
 find_package(nlohmann_json REQUIRED PATHS "${NLOHMANN_JSON_PREFIX_PATH}")
 
@@ -68,6 +68,7 @@ set(PROJECT_SOURCES
     src/mainwindow.cpp
     include/api.h
     src/api.cpp
+    #test_add_income_dialog.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -86,6 +87,7 @@ target_link_libraries(untitled1 PRIVATE
     Qt${QT_VERSION_MAJOR}::Gui
     Qt${QT_VERSION_MAJOR}::Core
     Qt${QT_VERSION_MAJOR}::Pdf
+    Qt${QT_VERSION_MAJOR}::Test
     Qt${QT_VERSION_MAJOR}::PrintSupport
     Qt${QT_VERSION_MAJOR}::Charts
     "${TESSERACT_LIB_DIR}/libtesseract.dylib"
@@ -123,3 +125,33 @@ install(TARGETS untitled1
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(untitled1)
 endif()
+
+#enable_testing()
+
+#find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport)
+#find_package(OpenCV REQUIRED)
+
+#add_executable(tests
+#    test_add_income_dialog.cpp
+#    ${CMAKE_CURRENT_BINARY_DIR}/untitled1_autogen/include
+#)
+
+#target_include_directories(tests PRIVATE
+#    include
+#    ui
+#    ${CMAKE_CURRENT_BINARY_DIR}/untitled1_autogen/include
+#    ${OpenCV_INCLUDE_DIRS}
+#)
+
+#target_link_libraries(tests PRIVATE
+#    Qt6::Widgets
+#    Qt6::Gui
+#    Qt6::Core
+#    Qt6::Pdf
+#    Qt6::Test
+#    Qt6::PrintSupport
+#    Qt6::Charts
+#    ${OpenCV_LIBS}
+#)
+
+#add_test(NAME tests COMMAND tests)

@@ -304,9 +304,6 @@ CUPS_LIBRARIES:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/Mac
 // added to the build.
 GTEST_HAS_ABSL:BOOL=OFF
 
-//The directory containing a CMake configuration file for GTest.
-GTest_DIR:PATH=/Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest
-
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
@@ -386,6 +383,9 @@ Qt6Pdf_DIR:PATH=/opt/homebrew/lib/cmake/Qt6Pdf
 
 //The directory containing a CMake configuration file for Qt6PrintSupport.
 Qt6PrintSupport_DIR:PATH=/opt/homebrew/lib/cmake/Qt6PrintSupport
+
+//The directory containing a CMake configuration file for Qt6Test.
+Qt6Test_DIR:PATH=/opt/homebrew/lib/cmake/Qt6Test
 
 //The directory containing a CMake configuration file for Qt6WidgetsTools.
 Qt6WidgetsTools_DIR:PATH=/opt/homebrew/lib/cmake/Qt6WidgetsTools
@@ -647,8 +647,6 @@ CUPS_INCLUDE_DIR-ADVANCED:INTERNAL=1
 CUPS_LIBRARIES-ADVANCED:INTERNAL=1
 //Details about finding Cups
 FIND_PACKAGE_MESSAGE_DETAILS_Cups:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libcups.tbd][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include][v2.3.4()]
-//Details about finding GTest
-FIND_PACKAGE_MESSAGE_DETAILS_GTest:INTERNAL=[/Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestConfig.cmake][c ][v1.16.0()]
 //Details about finding OpenCV
 FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/opt/homebrew/Cellar/opencv/4.11.0_1][v4.11.0()]
 //Details about finding OpenGL
@@ -725,6 +723,8 @@ QT_FEATURE_avx512vbmi2:INTERNAL=OFF
 QT_FEATURE_avx512vl:INTERNAL=OFF
 //Qt feature: backtrace (from target Qt6::Core)
 QT_FEATURE_backtrace:INTERNAL=ON
+//Qt feature: batch_test_support (from target Qt6::Test)
+QT_FEATURE_batch_test_support:INTERNAL=OFF
 //Qt feature: broken_threadlocal_dtors (from target Qt6::Core)
 QT_FEATURE_broken_threadlocal_dtors:INTERNAL=OFF
 //Qt feature: brotli (from target Qt6::Network)
@@ -1019,6 +1019,8 @@ QT_FEATURE_ipv6ifname:INTERNAL=ON
 QT_FEATURE_islamiccivilcalendar:INTERNAL=ON
 //Qt feature: itemmodel (from target Qt6::Core)
 QT_FEATURE_itemmodel:INTERNAL=ON
+//Qt feature: itemmodeltester (from target Qt6::Test)
+QT_FEATURE_itemmodeltester:INTERNAL=ON
 //Qt feature: itemviews (from target Qt6::Widgets)
 QT_FEATURE_itemviews:INTERNAL=ON
 //Qt feature: jalalicalendar (from target Qt6::Core)
@@ -1401,6 +1403,8 @@ QT_FEATURE_tabwidget:INTERNAL=ON
 QT_FEATURE_temporaryfile:INTERNAL=ON
 //Qt feature: testlib (from target Qt6::Core)
 QT_FEATURE_testlib:INTERNAL=ON
+//Qt feature: testlib_selfcover (from target Qt6::Test)
+QT_FEATURE_testlib_selfcover:INTERNAL=OFF
 //Qt feature: textbrowser (from target Qt6::Widgets)
 QT_FEATURE_textbrowser:INTERNAL=ON
 //Qt feature: textdate (from target Qt6::Core)
@@ -1465,6 +1469,8 @@ QT_FEATURE_use_lld_linker:INTERNAL=OFF
 QT_FEATURE_use_mold_linker:INTERNAL=OFF
 //Qt feature: vaes (from target Qt6::Core)
 QT_FEATURE_vaes:INTERNAL=OFF
+//Qt feature: valgrind (from target Qt6::Test)
+QT_FEATURE_valgrind:INTERNAL=ON
 //Qt feature: validator (from target Qt6::Gui)
 QT_FEATURE_validator:INTERNAL=ON
 //Qt feature: version_tagging (from target Qt6::Core)

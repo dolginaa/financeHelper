@@ -811,13 +811,13 @@ CMakeFiles/untitled1.dir/src/text_recognition.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit/byteswap.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit/endian.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit/has_single_bit.h \
-  /Users/adolgina/untitled1/third_party/tesseract/include/tesseract/baseapi.h \
-  /Users/adolgina/untitled1/third_party/tesseract/include/tesseract/export.h \
-  /Users/adolgina/untitled1/third_party/tesseract/include/tesseract/pageiterator.h \
-  /Users/adolgina/untitled1/third_party/tesseract/include/tesseract/publictypes.h \
-  /Users/adolgina/untitled1/third_party/tesseract/include/tesseract/resultiterator.h \
-  /Users/adolgina/untitled1/third_party/tesseract/include/tesseract/ltrresultiterator.h \
-  /Users/adolgina/untitled1/third_party/tesseract/include/tesseract/unichar.h \
+  /opt/homebrew/include/tesseract/baseapi.h \
+  /opt/homebrew/include/tesseract/export.h \
+  /opt/homebrew/include/tesseract/pageiterator.h \
+  /opt/homebrew/include/tesseract/publictypes.h \
+  /opt/homebrew/include/tesseract/resultiterator.h \
+  /opt/homebrew/include/tesseract/ltrresultiterator.h \
+  /opt/homebrew/include/tesseract/unichar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/memory.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit_reference \
@@ -938,35 +938,35 @@ CMakeFiles/untitled1.dir/src/text_recognition.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/adolgina/untitled1/third_party/tesseract/include/tesseract/version.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/allheaders.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/alltypes.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/endianness.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/environ.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/array.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/bbuffer.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/hashmap.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/heap.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/list.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/ptra.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/queue.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/rbtree.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/stack.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/arrayaccess.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/bmf.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/ccbord.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/colorfill.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/dewarp.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/gplot.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/imageio.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/jbclass.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/morph.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/pix.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/recog.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/regutils.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/stringcode.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/sudoku.h \
-  /Users/adolgina/untitled1/third_party/leptonica/include/leptonica/watershed.h \
+  /opt/homebrew/include/tesseract/version.h \
+  /opt/homebrew/include/leptonica/allheaders.h \
+  /opt/homebrew/include/leptonica/alltypes.h \
+  /opt/homebrew/include/leptonica/endianness.h \
+  /opt/homebrew/include/leptonica/environ.h \
+  /opt/homebrew/include/leptonica/array.h \
+  /opt/homebrew/include/leptonica/bbuffer.h \
+  /opt/homebrew/include/leptonica/hashmap.h \
+  /opt/homebrew/include/leptonica/heap.h \
+  /opt/homebrew/include/leptonica/list.h \
+  /opt/homebrew/include/leptonica/ptra.h \
+  /opt/homebrew/include/leptonica/queue.h \
+  /opt/homebrew/include/leptonica/rbtree.h \
+  /opt/homebrew/include/leptonica/stack.h \
+  /opt/homebrew/include/leptonica/arrayaccess.h \
+  /opt/homebrew/include/leptonica/bmf.h \
+  /opt/homebrew/include/leptonica/ccbord.h \
+  /opt/homebrew/include/leptonica/colorfill.h \
+  /opt/homebrew/include/leptonica/dewarp.h \
+  /opt/homebrew/include/leptonica/gplot.h \
+  /opt/homebrew/include/leptonica/imageio.h \
+  /opt/homebrew/include/leptonica/jbclass.h \
+  /opt/homebrew/include/leptonica/morph.h \
+  /opt/homebrew/include/leptonica/pix.h \
+  /opt/homebrew/include/leptonica/recog.h \
+  /opt/homebrew/include/leptonica/regutils.h \
+  /opt/homebrew/include/leptonica/stringcode.h \
+  /opt/homebrew/include/leptonica/sudoku.h \
+  /opt/homebrew/include/leptonica/watershed.h \
   /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4/opencv2/opencv.hpp \
   /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4/opencv2/opencv_modules.hpp \
   /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4/opencv2/core.hpp \

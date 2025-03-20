@@ -87,7 +87,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\" \"gmock\" \"gtest\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -175,6 +175,19 @@ untitled1/fast:
 .PHONY : untitled1/fast
 
 #=============================================================================
+# Target rules for targets named pdf_tests
+
+# Build rule for target.
+pdf_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pdf_tests
+.PHONY : pdf_tests
+
+# fast build rule for target.
+pdf_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pdf_tests.dir/build.make CMakeFiles/pdf_tests.dir/build
+.PHONY : pdf_tests/fast
+
+#=============================================================================
 # Target rules for targets named untitled1_autogen_timestamp_deps
 
 # Build rule for target.
@@ -200,6 +213,188 @@ untitled1_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1_autogen.dir/build.make CMakeFiles/untitled1_autogen.dir/build
 .PHONY : untitled1_autogen/fast
 
+#=============================================================================
+# Target rules for targets named pdf_tests_autogen_timestamp_deps
+
+# Build rule for target.
+pdf_tests_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pdf_tests_autogen_timestamp_deps
+.PHONY : pdf_tests_autogen_timestamp_deps
+
+# fast build rule for target.
+pdf_tests_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pdf_tests_autogen_timestamp_deps.dir/build.make CMakeFiles/pdf_tests_autogen_timestamp_deps.dir/build
+.PHONY : pdf_tests_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named pdf_tests_autogen
+
+# Build rule for target.
+pdf_tests_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pdf_tests_autogen
+.PHONY : pdf_tests_autogen
+
+# fast build rule for target.
+pdf_tests_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pdf_tests_autogen.dir/build.make CMakeFiles/pdf_tests_autogen.dir/build
+.PHONY : pdf_tests_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googlemock/CMakeFiles/gmock.dir/build.make third_party/googletest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gmock_autogen_timestamp_deps
+
+# Build rule for target.
+gmock_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_autogen_timestamp_deps
+.PHONY : gmock_autogen_timestamp_deps
+
+# fast build rule for target.
+gmock_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googlemock/CMakeFiles/gmock_autogen_timestamp_deps.dir/build.make third_party/googletest/googlemock/CMakeFiles/gmock_autogen_timestamp_deps.dir/build
+.PHONY : gmock_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gmock_autogen
+
+# Build rule for target.
+gmock_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_autogen
+.PHONY : gmock_autogen
+
+# fast build rule for target.
+gmock_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googlemock/CMakeFiles/gmock_autogen.dir/build.make third_party/googletest/googlemock/CMakeFiles/gmock_autogen.dir/build
+.PHONY : gmock_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main_autogen_timestamp_deps
+
+# Build rule for target.
+gmock_main_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main_autogen_timestamp_deps
+.PHONY : gmock_main_autogen_timestamp_deps
+
+# fast build rule for target.
+gmock_main_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googlemock/CMakeFiles/gmock_main_autogen_timestamp_deps.dir/build.make third_party/googletest/googlemock/CMakeFiles/gmock_main_autogen_timestamp_deps.dir/build
+.PHONY : gmock_main_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main_autogen
+
+# Build rule for target.
+gmock_main_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main_autogen
+.PHONY : gmock_main_autogen
+
+# fast build rule for target.
+gmock_main_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/build.make third_party/googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/build
+.PHONY : gmock_main_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googletest/CMakeFiles/gtest.dir/build.make third_party/googletest/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build.make third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest_autogen_timestamp_deps
+
+# Build rule for target.
+gtest_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_autogen_timestamp_deps
+.PHONY : gtest_autogen_timestamp_deps
+
+# fast build rule for target.
+gtest_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googletest/CMakeFiles/gtest_autogen_timestamp_deps.dir/build.make third_party/googletest/googletest/CMakeFiles/gtest_autogen_timestamp_deps.dir/build
+.PHONY : gtest_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gtest_autogen
+
+# Build rule for target.
+gtest_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_autogen
+.PHONY : gtest_autogen
+
+# fast build rule for target.
+gtest_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googletest/CMakeFiles/gtest_autogen.dir/build.make third_party/googletest/googletest/CMakeFiles/gtest_autogen.dir/build
+.PHONY : gtest_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main_autogen_timestamp_deps
+
+# Build rule for target.
+gtest_main_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main_autogen_timestamp_deps
+.PHONY : gtest_main_autogen_timestamp_deps
+
+# fast build rule for target.
+gtest_main_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googletest/CMakeFiles/gtest_main_autogen_timestamp_deps.dir/build.make third_party/googletest/googletest/CMakeFiles/gtest_main_autogen_timestamp_deps.dir/build
+.PHONY : gtest_main_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main_autogen
+
+# Build rule for target.
+gtest_main_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main_autogen
+.PHONY : gtest_main_autogen
+
+# fast build rule for target.
+gtest_main_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/build.make third_party/googletest/googletest/CMakeFiles/gtest_main_autogen.dir/build
+.PHONY : gtest_main_autogen/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -223,6 +418,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+pdf_tests_autogen/mocs_compilation.o: pdf_tests_autogen/mocs_compilation.cpp.o
+.PHONY : pdf_tests_autogen/mocs_compilation.o
+
+# target to build an object file
+pdf_tests_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pdf_tests.dir/build.make CMakeFiles/pdf_tests.dir/pdf_tests_autogen/mocs_compilation.cpp.o
+.PHONY : pdf_tests_autogen/mocs_compilation.cpp.o
+
+pdf_tests_autogen/mocs_compilation.i: pdf_tests_autogen/mocs_compilation.cpp.i
+.PHONY : pdf_tests_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+pdf_tests_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pdf_tests.dir/build.make CMakeFiles/pdf_tests.dir/pdf_tests_autogen/mocs_compilation.cpp.i
+.PHONY : pdf_tests_autogen/mocs_compilation.cpp.i
+
+pdf_tests_autogen/mocs_compilation.s: pdf_tests_autogen/mocs_compilation.cpp.s
+.PHONY : pdf_tests_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+pdf_tests_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pdf_tests.dir/build.make CMakeFiles/pdf_tests.dir/pdf_tests_autogen/mocs_compilation.cpp.s
+.PHONY : pdf_tests_autogen/mocs_compilation.cpp.s
 
 src/api.o: src/api.cpp.o
 .PHONY : src/api.o
@@ -368,6 +587,30 @@ src/text_recognition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/src/text_recognition.cpp.s
 .PHONY : src/text_recognition.cpp.s
 
+test_api.o: test_api.cpp.o
+.PHONY : test_api.o
+
+# target to build an object file
+test_api.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pdf_tests.dir/build.make CMakeFiles/pdf_tests.dir/test_api.cpp.o
+.PHONY : test_api.cpp.o
+
+test_api.i: test_api.cpp.i
+.PHONY : test_api.i
+
+# target to preprocess a source file
+test_api.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pdf_tests.dir/build.make CMakeFiles/pdf_tests.dir/test_api.cpp.i
+.PHONY : test_api.cpp.i
+
+test_api.s: test_api.cpp.s
+.PHONY : test_api.s
+
+# target to generate assembly for a file
+test_api.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pdf_tests.dir/build.make CMakeFiles/pdf_tests.dir/test_api.cpp.s
+.PHONY : test_api.cpp.s
+
 ui/add_income_dialog.o: ui/add_income_dialog.cpp.o
 .PHONY : ui/add_income_dialog.o
 
@@ -500,12 +743,30 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... gmock_autogen"
+	@echo "... gmock_autogen_timestamp_deps"
+	@echo "... gmock_main_autogen"
+	@echo "... gmock_main_autogen_timestamp_deps"
+	@echo "... gtest_autogen"
+	@echo "... gtest_autogen_timestamp_deps"
+	@echo "... gtest_main_autogen"
+	@echo "... gtest_main_autogen_timestamp_deps"
+	@echo "... pdf_tests_autogen"
+	@echo "... pdf_tests_autogen_timestamp_deps"
 	@echo "... untitled1_autogen"
 	@echo "... untitled1_autogen_timestamp_deps"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest"
+	@echo "... gtest_main"
+	@echo "... pdf_tests"
 	@echo "... untitled1"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pdf_tests_autogen/mocs_compilation.o"
+	@echo "... pdf_tests_autogen/mocs_compilation.i"
+	@echo "... pdf_tests_autogen/mocs_compilation.s"
 	@echo "... src/api.o"
 	@echo "... src/api.i"
 	@echo "... src/api.s"
@@ -524,6 +785,9 @@ help:
 	@echo "... src/text_recognition.o"
 	@echo "... src/text_recognition.i"
 	@echo "... src/text_recognition.s"
+	@echo "... test_api.o"
+	@echo "... test_api.i"
+	@echo "... test_api.s"
 	@echo "... ui/add_income_dialog.o"
 	@echo "... ui/add_income_dialog.i"
 	@echo "... ui/add_income_dialog.s"

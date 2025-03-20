@@ -1099,29 +1099,29 @@ CMakeFiles/untitled1.dir/src/chart_widget.cpp.o: \
   /opt/anaconda3/include/qt/QtCharts/QPieSlice \
   /opt/anaconda3/include/qt/QtCharts/qpieslice.h \
   /Users/adolgina/untitled1/include/storage.h \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/adl_serializer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/abi_macros.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp \
+  /opt/homebrew/include/nlohmann/json.hpp \
+  /opt/homebrew/include/nlohmann/adl_serializer.hpp \
+  /opt/homebrew/include/nlohmann/detail/abi_macros.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/from_json.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/valarray \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/exceptions.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/value_t.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_scope.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/detected.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /opt/homebrew/include/nlohmann/detail/exceptions.hpp \
+  /opt/homebrew/include/nlohmann/detail/value_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_scope.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/detected.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/void_t.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cassert \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_escape.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/position_t.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json_fwd.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_concat.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_escape.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/position_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/cpp_future.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/type_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/end.hpp \
+  /opt/homebrew/include/nlohmann/json_fwd.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_concat.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/identity_tag.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/std_fs.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
@@ -1167,31 +1167,31 @@ CMakeFiles/untitled1.dir/src/chart_widget.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/hash.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/lexer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/parser.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_pointer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_ref.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/serializer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/ordered_map.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /opt/homebrew/include/nlohmann/byte_container_with_subtype.hpp \
+  /opt/homebrew/include/nlohmann/detail/hash.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/binary_reader.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/input_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/json_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/lexer.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/is_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/parser.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_custom_base_class.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_pointer.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_ref.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/binary_writer.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/output_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/serializer.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_chars.hpp \
+  /opt/homebrew/include/nlohmann/ordered_map.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/any \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
   /opt/anaconda3/include/qt/QtWidgets/QVBoxLayout \
   /opt/anaconda3/include/qt/QtWidgets/qboxlayout.h \
   /opt/anaconda3/include/qt/QtWidgets/qlayout.h \

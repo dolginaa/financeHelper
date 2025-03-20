@@ -279,6 +279,7 @@ untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/src/mainwindow.
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/src/api.cpp.o
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/build.make
 untitled1.app/Contents/MacOS/untitled1: /opt/anaconda3/lib/libQt5Pdf.5.15.9.dylib
+untitled1.app/Contents/MacOS/untitled1: /opt/anaconda3/lib/libQt5Test.5.15.2.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/anaconda3/lib/libQt5PrintSupport.5.15.2.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/anaconda3/lib/libQt5Charts.5.15.2.dylib
 untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/untitled1/third_party/tesseract/lib/libtesseract.dylib
@@ -344,8 +345,6 @@ untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_flann.4.11.0
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_photo.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_imgproc.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_core.4.11.0.dylib
-untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/untitled1/third_party/googletest/lib/libgtest_main.a
-untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/untitled1/third_party/googletest/lib/libgtest.a
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/adolgina/untitled1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable untitled1.app/Contents/MacOS/untitled1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled1.dir/link.txt --verbose=$(VERBOSE)

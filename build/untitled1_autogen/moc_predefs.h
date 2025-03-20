@@ -4,6 +4,8 @@
 #define QT_NO_DEBUG 1
 #define QT_PDF_LIB 1
 #define QT_PRINTSUPPORT_LIB 1
+#define QT_TESTCASE_BUILDDIR "/Users/adolgina/untitled1/build"
+#define QT_TESTLIB_LIB 1
 #define QT_WIDGETS_LIB 1
 #define SIZEOF_DPTR (sizeof(void*))
 #define _LP64 1

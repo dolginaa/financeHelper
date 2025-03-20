@@ -917,51 +917,6 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Users/adolgina/untitled1/include/storage.h \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/adl_serializer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/abi_macros.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/exceptions.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/hash.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/lexer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/parser.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/position_t.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_pointer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_ref.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_scope.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/detected.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/serializer.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_concat.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_escape.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/value_t.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json_fwd.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/ordered_map.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp \
-  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
   /opt/anaconda3/include/qt/QtCharts/QAbstractAxis \
   /opt/anaconda3/include/qt/QtCharts/QAbstractSeries \
   /opt/anaconda3/include/qt/QtCharts/QChart \
@@ -1089,4 +1044,49 @@
   /opt/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
   /opt/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
   /opt/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
-  /opt/anaconda3/include/qt/QtWidgets/qwidget.h
+  /opt/anaconda3/include/qt/QtWidgets/qwidget.h \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/adl_serializer.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/byte_container_with_subtype.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/abi_macros.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/from_json.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_chars.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_json.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/exceptions.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/hash.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/binary_reader.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/input_adapters.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/json_sax.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/lexer.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/parser.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/position_t.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_custom_base_class.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_pointer.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_ref.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_scope.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_unscope.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/end.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/cpp_future.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/detected.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/identity_tag.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/is_sax.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/std_fs.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/type_traits.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/void_t.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/binary_writer.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/output_adapters.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/serializer.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_concat.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_escape.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/value_t.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json_fwd.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/ordered_map.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley_undef.hpp

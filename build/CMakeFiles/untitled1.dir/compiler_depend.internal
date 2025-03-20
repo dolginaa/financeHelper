@@ -935,55 +935,6 @@
  /Users/adolgina/untitled1/src/mainwindow.cpp
  /Users/adolgina/untitled1/src/storage.cpp
  /Users/adolgina/untitled1/src/text_recognition.cpp
- /Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestConfig.cmake
- /Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestConfigVersion.cmake
- /Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestTargets-release.cmake
- /Users/adolgina/untitled1/third_party/googletest/lib/cmake/GTest/GTestTargets.cmake
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/adl_serializer.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/abi_macros.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/exceptions.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/hash.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/lexer.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/parser.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/position_t.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_pointer.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_ref.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_scope.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/detected.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/serializer.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_concat.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_escape.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/value_t.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json_fwd.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/ordered_map.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp
- /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
  /Users/adolgina/untitled1/ui/add_income_dialog.cpp
  /Users/adolgina/untitled1/ui/add_income_dialog.h
  /Users/adolgina/untitled1/ui/add_income_dialog.ui
@@ -1195,11 +1146,59 @@
  /opt/anaconda3/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake
  /opt/anaconda3/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake
  /opt/anaconda3/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QCocoaPrinterSupportPlugin.cmake
+ /opt/anaconda3/lib/cmake/Qt5Test/Qt5TestConfig.cmake
+ /opt/anaconda3/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake
+ /opt/anaconda3/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake
  /opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
  /opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
  /opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
  /opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
  /opt/anaconda3/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/adl_serializer.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/byte_container_with_subtype.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/abi_macros.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/from_json.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_chars.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_json.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/exceptions.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/hash.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/binary_reader.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/input_adapters.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/json_sax.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/lexer.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/parser.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/position_t.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/internal_iterator.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iter_impl.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iteration_proxy.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iterator_traits.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/json_reverse_iterator.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/primitive_iterator.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_custom_base_class.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_pointer.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_ref.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_scope.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_unscope.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/begin.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/end.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/cpp_future.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/detected.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/identity_tag.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/is_sax.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/std_fs.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/type_traits.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/void_t.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/binary_writer.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/output_adapters.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/serializer.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_concat.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_escape.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/value_t.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json_fwd.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/ordered_map.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley.hpp
+ /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
  /opt/homebrew/bin/cmake
  /opt/homebrew/lib/cmake/opencv4/OpenCVConfig-version.cmake
  /opt/homebrew/lib/cmake/opencv4/OpenCVConfig.cmake
@@ -1217,7 +1216,6 @@
  /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake
  /opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake
  /opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake
- /opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake
  /opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake
  /opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake
  /opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake
@@ -1231,9 +1229,6 @@
  /opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake
  /opt/homebrew/share/cmake/Modules/CMakeTestCompilerCommon.cmake
  /opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake
- /opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake
- /opt/homebrew/share/cmake/Modules/CheckIncludeFileCXX.cmake
- /opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake
  /opt/homebrew/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake
  /opt/homebrew/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake
  /opt/homebrew/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake
@@ -1277,16 +1272,12 @@
  /opt/homebrew/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake
  /opt/homebrew/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake
  /opt/homebrew/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake
- /opt/homebrew/share/cmake/Modules/FindGTest.cmake
  /opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake
  /opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake
- /opt/homebrew/share/cmake/Modules/FindThreads.cmake
  /opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake
- /opt/homebrew/share/cmake/Modules/GoogleTest.cmake
  /opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake
  /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake
  /opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake
- /opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake
  /opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake
  /opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake
  /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake

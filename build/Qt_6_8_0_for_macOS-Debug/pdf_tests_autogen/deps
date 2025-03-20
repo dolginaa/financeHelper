@@ -307,6 +307,14 @@ pdf_tests_autogen/timestamp: \
 	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-release.cmake \
 	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake \
+	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfig.cmake \
+	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfigVersion.cmake \
+	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake \
+	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestDependencies.cmake \
+	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestTargets-release.cmake \
+	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestTargets.cmake \
+	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake \
