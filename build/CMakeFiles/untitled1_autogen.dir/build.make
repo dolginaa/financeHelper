@@ -68,8 +68,8 @@ include CMakeFiles/untitled1_autogen.dir/progress.make
 
 CMakeFiles/untitled1_autogen: untitled1_autogen/timestamp
 
-untitled1_autogen/timestamp: /Users/adolgina/Qt/6.8.0/macos/libexec/moc
-untitled1_autogen/timestamp: /Users/adolgina/Qt/6.8.0/macos/libexec/uic
+untitled1_autogen/timestamp: /opt/anaconda3/bin/moc
+untitled1_autogen/timestamp: /opt/anaconda3/bin/uic
 untitled1_autogen/timestamp: CMakeFiles/untitled1_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/adolgina/untitled1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target untitled1"
 	/opt/homebrew/bin/cmake -E cmake_autogen /Users/adolgina/untitled1/build/CMakeFiles/untitled1_autogen.dir/AutogenInfo.json ""

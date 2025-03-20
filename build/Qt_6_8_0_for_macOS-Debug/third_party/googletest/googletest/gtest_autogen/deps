@@ -1,0 +1,19 @@
+gtest_autogen/timestamp: \
+	/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in \
+	/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake \
+	/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake \
+	/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckIncludeFile.cmake \
+	/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckLibraryExists.cmake \
+	/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake \
+	/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageMessage.cmake \
+	/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindThreads.cmake \
+	/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake \
+	/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake \
+	/Users/adolgina/untitled1/build/Qt_6_8_0_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake \
+	/Users/adolgina/untitled1/third_party/googletest/googletest/CMakeLists.txt \
+	/Users/adolgina/untitled1/third_party/googletest/googletest/cmake/Config.cmake.in \
+	/Users/adolgina/untitled1/third_party/googletest/googletest/cmake/gtest.pc.in \
+	/Users/adolgina/untitled1/third_party/googletest/googletest/cmake/gtest_main.pc.in \
+	/Users/adolgina/untitled1/third_party/googletest/googletest/cmake/internal_utils.cmake \
+	/Users/adolgina/untitled1/third_party/googletest/googletest/src/gtest-all.cc \
+	/Users/adolgina/Qt/Tools/CMake/CMake.app/Contents/bin/cmake

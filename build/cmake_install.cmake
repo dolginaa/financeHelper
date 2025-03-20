@@ -42,9 +42,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./untitled1.app/Contents/MacOS/untitled1" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./untitled1.app/Contents/MacOS/untitled1")
     execute_process(COMMAND /opt/anaconda3/bin/install_name_tool
-      -delete_rpath "/Users/adolgina/Qt/6.8.0/macos/lib"
+      -delete_rpath "/opt/anaconda3/lib"
       -delete_rpath "/opt/homebrew/lib"
-      -add_rpath "@executable_path/../Frameworks"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./untitled1.app/Contents/MacOS/untitled1")
   endif()
 endif()

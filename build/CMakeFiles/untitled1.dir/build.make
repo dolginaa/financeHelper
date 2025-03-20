@@ -69,8 +69,8 @@ include CMakeFiles/untitled1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled1.dir/flags.make
 
-untitled1_autogen/timestamp: /Users/adolgina/Qt/6.8.0/macos/libexec/moc
-untitled1_autogen/timestamp: /Users/adolgina/Qt/6.8.0/macos/libexec/uic
+untitled1_autogen/timestamp: /opt/anaconda3/bin/moc
+untitled1_autogen/timestamp: /opt/anaconda3/bin/uic
 untitled1_autogen/timestamp: CMakeFiles/untitled1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/adolgina/untitled1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target untitled1"
 	/opt/homebrew/bin/cmake -E cmake_autogen /Users/adolgina/untitled1/build/CMakeFiles/untitled1_autogen.dir/AutogenInfo.json ""
@@ -278,11 +278,11 @@ untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/ui/expense_repo
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/src/mainwindow.cpp.o
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/src/api.cpp.o
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/build.make
-untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/Qt/6.8.0/macos/lib/QtPdf.framework/Versions/A/QtPdf
-untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/Qt/6.8.0/macos/lib/QtPrintSupport.framework/Versions/A/QtPrintSupport
-untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/Qt/6.8.0/macos/lib/QtCharts.framework/Versions/A/QtCharts
-untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/opt/tesseract/lib/libtesseract.dylib
-untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/opt/leptonica/lib/libleptonica.dylib
+untitled1.app/Contents/MacOS/untitled1: /opt/anaconda3/lib/libQt5Pdf.5.15.9.dylib
+untitled1.app/Contents/MacOS/untitled1: /opt/anaconda3/lib/libQt5PrintSupport.5.15.2.dylib
+untitled1.app/Contents/MacOS/untitled1: /opt/anaconda3/lib/libQt5Charts.5.15.2.dylib
+untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/untitled1/third_party/tesseract/lib/libtesseract.dylib
+untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/untitled1/third_party/leptonica/lib/libleptonica.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_gapi.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_stitching.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_alphamat.4.11.0.dylib
@@ -319,12 +319,11 @@ untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_wechat_qrcod
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_xfeatures2d.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_xobjdetect.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_xphoto.4.11.0.dylib
-untitled1.app/Contents/MacOS/untitled1: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libcups.tbd
-untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/Qt/6.8.0/macos/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets
-untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
-untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/Qt/6.8.0/macos/lib/QtOpenGL.framework/Versions/A/QtOpenGL
-untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui
-untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore
+untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/untitled1/third_party/poppler/lib/libpoppler.dylib
+untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/untitled1/third_party/poppler/lib/libpoppler-cpp.dylib
+untitled1.app/Contents/MacOS/untitled1: /opt/anaconda3/lib/libQt5Widgets.5.15.2.dylib
+untitled1.app/Contents/MacOS/untitled1: /opt/anaconda3/lib/libQt5Gui.5.15.2.dylib
+untitled1.app/Contents/MacOS/untitled1: /opt/anaconda3/lib/libQt5Core.5.15.2.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_shape.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_highgui.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_datasets.4.11.0.dylib
@@ -345,6 +344,8 @@ untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_flann.4.11.0
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_photo.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_imgproc.4.11.0.dylib
 untitled1.app/Contents/MacOS/untitled1: /opt/homebrew/lib/libopencv_core.4.11.0.dylib
+untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/untitled1/third_party/googletest/lib/libgtest_main.a
+untitled1.app/Contents/MacOS/untitled1: /Users/adolgina/untitled1/third_party/googletest/lib/libgtest.a
 untitled1.app/Contents/MacOS/untitled1: CMakeFiles/untitled1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/adolgina/untitled1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable untitled1.app/Contents/MacOS/untitled1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled1.dir/link.txt --verbose=$(VERBOSE)

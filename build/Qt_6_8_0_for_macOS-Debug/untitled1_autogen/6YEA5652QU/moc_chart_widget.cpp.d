@@ -99,8 +99,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
-  /Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
-  /Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
   /Users/adolgina/untitled1/include/storage.h \
   /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/adl_serializer.hpp \
   /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/byte_container_with_subtype.hpp \
@@ -347,6 +345,7 @@
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsWidget \
+  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \

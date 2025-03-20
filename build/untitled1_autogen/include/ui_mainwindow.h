@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 6.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -26,32 +26,36 @@ public:
     QPushButton *addIncomeButton;
     QPushButton *generateReportButton;
     QPushButton *uploadReceiptButton;
+    QPushButton *generateExpenseReportButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
-            MainWindow->setObjectName("MainWindow");
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(617, 299);
         centralwidget = new QWidget(MainWindow);
-        centralwidget->setObjectName("centralwidget");
+        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         addIncomeButton = new QPushButton(centralwidget);
-        addIncomeButton->setObjectName("addIncomeButton");
+        addIncomeButton->setObjectName(QString::fromUtf8("addIncomeButton"));
         addIncomeButton->setGeometry(QRect(49, 90, 131, 41));
         generateReportButton = new QPushButton(centralwidget);
-        generateReportButton->setObjectName("generateReportButton");
-        generateReportButton->setGeometry(QRect(190, 90, 221, 41));
+        generateReportButton->setObjectName(QString::fromUtf8("generateReportButton"));
+        generateReportButton->setGeometry(QRect(190, 70, 221, 41));
         uploadReceiptButton = new QPushButton(centralwidget);
-        uploadReceiptButton->setObjectName("uploadReceiptButton");
+        uploadReceiptButton->setObjectName(QString::fromUtf8("uploadReceiptButton"));
         uploadReceiptButton->setGeometry(QRect(420, 90, 131, 41));
+        generateExpenseReportButton = new QPushButton(centralwidget);
+        generateExpenseReportButton->setObjectName(QString::fromUtf8("generateExpenseReportButton"));
+        generateExpenseReportButton->setGeometry(QRect(190, 110, 221, 41));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName("menubar");
+        menubar->setObjectName(QString::fromUtf8("menubar"));
         menubar->setGeometry(QRect(0, 0, 617, 24));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
-        statusbar->setObjectName("statusbar");
+        statusbar->setObjectName(QString::fromUtf8("statusbar"));
         MainWindow->setStatusBar(statusbar);
 
         retranslateUi(MainWindow);
@@ -65,6 +69,7 @@ public:
         addIncomeButton->setText(QCoreApplication::translate("MainWindow", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214 \320\264\320\276\321\205\320\276\320\264", nullptr));
         generateReportButton->setText(QCoreApplication::translate("MainWindow", "\320\241\320\263\320\265\320\275\320\265\321\200\320\270\321\200\320\276\320\262\320\260\321\202\321\214 \320\276\321\202\321\207\321\221\321\202 \320\276 \320\261\320\260\320\273\320\260\320\275\321\201\320\265", nullptr));
         uploadReceiptButton->setText(QCoreApplication::translate("MainWindow", "\320\227\320\260\320\263\321\200\321\203\320\267\320\270\321\202\321\214 \321\207\320\265\320\272", nullptr));
+        generateExpenseReportButton->setText(QCoreApplication::translate("MainWindow", "\320\241\320\263\320\265\320\275\320\265\321\200\320\270\321\200\320\276\320\262\320\260\321\202\321\214 \320\276\321\202\321\207\321\221\321\202 \320\276 \321\202\321\200\320\260\321\202\320\260\321\205", nullptr));
     } // retranslateUi
 
 };

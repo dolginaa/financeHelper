@@ -99,8 +99,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
-  /Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
-  /Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
   /Users/adolgina/untitled1/build/Qt_6_8_0_for_macOS-Debug/untitled1_autogen/include/ui_expense_report_dialog.h \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/QVariant \
   /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20functional.h \

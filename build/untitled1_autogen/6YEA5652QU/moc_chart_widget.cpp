@@ -1,51 +1,48 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'chart_widget.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../include/chart_widget.h"
-#include <QtCore/qmetatype.h>
-
-#include <QtCore/qtmochelpers.h>
-
 #include <memory>
-
-
-#include <QtCore/qxptype_traits.h>
+#include "../../../include/chart_widget.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'chart_widget.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.8.0. It"
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-#ifndef Q_CONSTINIT
-#define Q_CONSTINIT
-#endif
-
+QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-QT_WARNING_DISABLE_GCC("-Wuseless-cast")
-namespace {
+struct qt_meta_stringdata_ExpenseChart_t {
+    QByteArrayData data[1];
+    char stringdata0[13];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ExpenseChart_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ExpenseChart_t qt_meta_stringdata_ExpenseChart = {
+    {
+QT_MOC_LITERAL(0, 0, 12) // "ExpenseChart"
 
-#ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSExpenseChartENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSExpenseChartENDCLASS = QtMocHelpers::stringData(
+    },
     "ExpenseChart"
-);
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
-} // unnamed namespace
+};
+#undef QT_MOC_LITERAL
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSExpenseChartENDCLASS[] = {
+static const uint qt_meta_data_ExpenseChart[] = {
 
  // content:
-      12,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -58,26 +55,23 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSExpenseChartENDCLASS[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject ExpenseChart::staticMetaObject = { {
+void ExpenseChart::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+QT_INIT_METAOBJECT const QMetaObject ExpenseChart::staticMetaObject = { {
     QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_meta_stringdata_CLASSExpenseChartENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSExpenseChartENDCLASS,
+    qt_meta_stringdata_ExpenseChart.data,
+    qt_meta_data_ExpenseChart,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSExpenseChartENDCLASS_t,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<ExpenseChart, std::true_type>
-    >,
     nullptr
 } };
 
-void ExpenseChart::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
-{
-    (void)_o;
-    (void)_id;
-    (void)_c;
-    (void)_a;
-}
 
 const QMetaObject *ExpenseChart::metaObject() const
 {
@@ -87,7 +81,7 @@ const QMetaObject *ExpenseChart::metaObject() const
 void *ExpenseChart::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSExpenseChartENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_ExpenseChart.stringdata0))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
@@ -98,3 +92,4 @@ int ExpenseChart::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     return _id;
 }
 QT_WARNING_POP
+QT_END_MOC_NAMESPACE

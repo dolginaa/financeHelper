@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'upload_receipt_dialog.ui'
 **
-** Created by: Qt User Interface Compiler version 6.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,7 +10,6 @@
 #define UI_UPLOAD_RECEIPT_DIALOG_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAbstractButton>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QDialogButtonBox>
@@ -32,32 +31,32 @@ public:
     void setupUi(QDialog *UploadReceiptDialog)
     {
         if (UploadReceiptDialog->objectName().isEmpty())
-            UploadReceiptDialog->setObjectName("UploadReceiptDialog");
+            UploadReceiptDialog->setObjectName(QString::fromUtf8("UploadReceiptDialog"));
         UploadReceiptDialog->resize(400, 300);
         buttonBox = new QDialogButtonBox(UploadReceiptDialog);
-        buttonBox->setObjectName("buttonBox");
+        buttonBox->setObjectName(QString::fromUtf8("buttonBox"));
         buttonBox->setGeometry(QRect(30, 240, 341, 32));
         buttonBox->setOrientation(Qt::Orientation::Horizontal);
         buttonBox->setStandardButtons(QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Ok);
         label = new QLabel(UploadReceiptDialog);
-        label->setObjectName("label");
+        label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(10, 40, 181, 16));
         selectFileButton = new QPushButton(UploadReceiptDialog);
-        selectFileButton->setObjectName("selectFileButton");
+        selectFileButton->setObjectName(QString::fromUtf8("selectFileButton"));
         selectFileButton->setGeometry(QRect(30, 70, 100, 32));
         fileLabel = new QLabel(UploadReceiptDialog);
-        fileLabel->setObjectName("fileLabel");
+        fileLabel->setObjectName(QString::fromUtf8("fileLabel"));
         fileLabel->setGeometry(QRect(200, 40, 181, 20));
         uploadButton = new QPushButton(UploadReceiptDialog);
-        uploadButton->setObjectName("uploadButton");
+        uploadButton->setObjectName(QString::fromUtf8("uploadButton"));
         uploadButton->setGeometry(QRect(200, 70, 100, 32));
         cancelButton = new QPushButton(UploadReceiptDialog);
-        cancelButton->setObjectName("cancelButton");
+        cancelButton->setObjectName(QString::fromUtf8("cancelButton"));
         cancelButton->setGeometry(QRect(120, 140, 100, 32));
 
         retranslateUi(UploadReceiptDialog);
-        QObject::connect(buttonBox, &QDialogButtonBox::accepted, UploadReceiptDialog, qOverload<>(&QDialog::accept));
-        QObject::connect(buttonBox, &QDialogButtonBox::rejected, UploadReceiptDialog, qOverload<>(&QDialog::reject));
+        QObject::connect(buttonBox, SIGNAL(accepted()), UploadReceiptDialog, SLOT(accept()));
+        QObject::connect(buttonBox, SIGNAL(rejected()), UploadReceiptDialog, SLOT(reject()));
 
         QMetaObject::connectSlotsByName(UploadReceiptDialog);
     } // setupUi

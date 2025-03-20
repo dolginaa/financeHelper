@@ -37,12 +37,16 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/adolgina/untitled1/build/Qt_6_8_0_for_macOS-Debug/third_party/googletest/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/adolgina/untitled1/build/Qt_6_8_0_for_macOS-Debug/untitled1.app" USE_SOURCE_PERMISSIONS)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./untitled1.app/Contents/MacOS/untitled1" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./untitled1.app/Contents/MacOS/untitled1")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/adolgina/Qt/6.8.0/macos/lib"
       -delete_rpath "/opt/homebrew/lib"
       -add_rpath "@executable_path/../Frameworks"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./untitled1.app/Contents/MacOS/untitled1")

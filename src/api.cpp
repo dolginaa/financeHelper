@@ -8,13 +8,9 @@
 #include <regex>
 #include <map>
 #include <cstdlib>
-
-// OpenCV
 #include <opencv2/opencv.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
-
-// Qt
 #include <QPdfWriter>
 #include <QPainter>
 #include <QFileDialog>
@@ -22,14 +18,11 @@
 #include <QtCharts/QLineSeries>
 #include <QtCharts/QDateTimeAxis>
 #include <QtCharts/QValueAxis>
-
-// Собственные классы (предположительно)
 #include "storage.h"
 #include "text_recognition.h"
 #include "image_processing.h"
 #include "chart_widget.h"
 
-// Функция получения текущей даты в формате YYYY-MM-DD
 std::string getCurrentDate() {
     auto now = std::chrono::system_clock::now();
     std::time_t now_c = std::chrono::system_clock::to_time_t(now);
@@ -40,18 +33,17 @@ std::string getCurrentDate() {
 }
 
 std::string currentDate = getCurrentDate();
-// Функция для конвертации UTF-8 → UTF-16 (wstring)
+
 std::wstring utf8_to_wstring(const std::string& str) {
     std::wstring wstr(str.size(), L'\0');
     std::mbstowcs(&wstr[0], str.c_str(), str.size());
     return wstr;
 }
 
-// Функция для конвертации UTF-16 → UTF-8 (string)
 std::string wstring_to_utf8(const std::wstring& wstr) {
-    std::string str(wstr.size() * 4, '\0'); // Максимальный размер UTF-8 символа = 4 байта
+    std::string str(wstr.size() * 4, '\0');
     std::wcstombs(&str[0], wstr.c_str(), str.size());
-    return str.c_str(); // Обрезаем лишние нулевые байты
+    return str.c_str();
 }
 
 const std::vector<std::string> queries = {"итого к оплате", "итого", "итог", "к оплате"};
@@ -128,26 +120,22 @@ std::chrono::system_clock::time_point parseDate(const std::string& dateStr) {
     return std::chrono::system_clock::from_time_t(std::mktime(&tm));
 }
 
-// Функция для вычисления разницы в днях между двумя датами
 int daysBetween(const std::chrono::system_clock::time_point& start, const std::chrono::system_clock::time_point& end) {
     return std::chrono::duration_cast<std::chrono::hours>(end - start).count() / 24;
 }
 
-// Функция для вычисления разницы в месяцах между двумя датами
 int monthsBetween(const std::tm& start, const std::tm& end) {
     return (end.tm_year - start.tm_year) * 12 + (end.tm_mon - start.tm_mon);
 }
 
-// Функция для вычисления разницы в годах между двумя датами
 int yearsBetween(const std::tm& start, const std::tm& end) {
     return end.tm_year - start.tm_year;
 }
 
-// Вспомогательная функция для преобразования time_point в std::tm
 std::tm toTm(std::chrono::system_clock::time_point tp) {
     std::time_t tt = std::chrono::system_clock::to_time_t(tp);
     std::tm tm{};
-    localtime_r(&tt, &tm); // Для Linux/macOS
+    localtime_r(&tt, &tm);
     return tm;
 }
 
@@ -190,7 +178,6 @@ void AddReceipt(const std::string& imagePath, int userId) {
     if (amount > 0) {
         Storage storage("data.json");
 
-        // Получаем текущую дату
         std::time_t t = std::time(nullptr);
         std::tm* now = std::localtime(&t);
         char dateBuffer[11];
@@ -214,10 +201,8 @@ void AddIncome(int userId, double amount, const std::string& frequency) {
 }
 
 std::string GetExpenseReport(int userId, const std::string &startDate = "", const std::string &endDate = "") {
-    // Определяем временные точки начала и конца периода
     std::chrono::system_clock::time_point startTp, endTp;
 
-    // Текущая дата
     auto now = std::chrono::system_clock::now();
 
     if (!startDate.empty() && !endDate.empty()) {
@@ -246,7 +231,6 @@ std::string GetExpenseReport(int userId, const std::string &startDate = "", cons
         return "";
     }
 
-    // Фильтрация расходов по диапазону дат
     std::vector<Expense> filteredExpenses;
     for (const auto& expense : userData.expenses) {
         auto expenseDate = parseDate(expense.date);
@@ -260,7 +244,6 @@ std::string GetExpenseReport(int userId, const std::string &startDate = "", cons
         return "";
     }
 
-    // Создаем новый объект UserData с отфильтрованными расходами
     UserData filteredUserData = userData;
     filteredUserData.expenses = std::move(filteredExpenses);
 
@@ -290,7 +273,6 @@ std::string GetExpenseReport(int userId, const std::string &startDate = "", cons
 }
 
 std::string GetReport(int userId, const std::string &startDate = "", const std::string &endDate = currentDate) {
-    // Определяем даты
     std::chrono::system_clock::time_point startTp, endTp;
 
     if (startDate.empty()) {
@@ -310,7 +292,6 @@ std::string GetReport(int userId, const std::string &startDate = "", const std::
         return "";
     }
 
-    // Загружаем данные пользователя
     Storage storage("data.json");
     UserData userData = storage.getUserData(userId);
 
@@ -319,7 +300,6 @@ std::string GetReport(int userId, const std::string &startDate = "", const std::
         return "";
     }
 
-    // Фильтруем расходы и доходы по диапазону дат
     std::map<std::chrono::system_clock::time_point, double> balanceHistory;
     double balance = 0;
 
@@ -369,14 +349,12 @@ std::string GetReport(int userId, const std::string &startDate = "", const std::
         }
     }
 
-    // Заполняем баланс на каждый день, учитывая баланс за прошлый день
     std::map<std::chrono::system_clock::time_point, double> dailyBalance;
 
     for (auto tp = startTp; tp <= endTp; tp += std::chrono::hours(24)) {
         dailyBalance[tp] += balanceHistory[tp];
     }
 
-    // Создание графика
     QChartView chartView;
     QChart *chart = new QChart();
     chart->setTitle("Баланс пользователя");
@@ -406,11 +384,9 @@ std::string GetReport(int userId, const std::string &startDate = "", const std::
     chartView.setChart(chart);
     chartView.resize(1200, 900);
 
-    // Запрос пути для сохранения PDF
     QString fileName = QFileDialog::getSaveFileName(nullptr, "Сохранить PDF", "", "PDF Files (*.pdf)");
     if (fileName.isEmpty()) return "";
 
-    // Сохранение графика в PDF
     QPdfWriter writer(fileName);
     writer.setPageSize(QPageSize(QPageSize::A4));
     writer.setResolution(300);

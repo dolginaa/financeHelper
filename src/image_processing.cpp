@@ -13,7 +13,7 @@ cv::Mat preprocessImage(const cv::Mat &inputImage) {
     // Бинаризация
     //cv::threshold(blurredImage, binaryImage, 0, 255, cv::THRESH_BINARY + cv::THRESH_OTSU);
     cv::adaptiveThreshold(blurredImage, binaryImage, 255, cv::ADAPTIVE_THRESH_GAUSSIAN_C, cv::THRESH_BINARY, 11, 2);
-    cv::imshow("10. Gray gradation", binaryImage);
+    //cv::imshow("10. Gray gradation", binaryImage);
 
     //cv::Mat kernel = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(2, 3));
     //cv::morphologyEx(edged, closed, cv::MORPH_CLOSE, kernel, cv::Point(-1, -1), 0);
@@ -40,7 +40,7 @@ cv::Mat removeShadows(const cv::Mat &grayImage) {
     cv::normalize(diff, normalized, 0, 255, cv::NORM_MINMAX);
 
     cv::equalizeHist(normalized, normalized);
-    cv::imshow("11. Gray gradation", normalized);
+    //cv::imshow("11. Gray gradation", normalized);
 
     return normalized;
 }
@@ -50,26 +50,26 @@ cv::Mat correctPerspective(const cv::Mat &inputImage) {
 
     // Градации серого
     cv::cvtColor(inputImage, gray, cv::COLOR_BGR2GRAY);
-    cv::imshow("1. Gray gradation", gray);
+    //cv::imshow("1. Gray gradation", gray);
 
     // Увеличение контраста CLAHE
     cv::Ptr<cv::CLAHE> clahe = cv::createCLAHE(2.0);
     clahe->apply(gray, gray);
-    cv::imshow("2. CLAHE", gray);
+    //cv::imshow("2. CLAHE", gray);
 
     // Размытие для удаления шума
     cv::GaussianBlur(gray, blurred, cv::Size(7, 5), 0);
-    cv::imshow("3. Blur", blurred);
+    //cv::imshow("3. Blur", blurred);
 
     // Определение контуров
     cv::Canny(blurred, edged, 50, 150);
-    cv::imshow("4. Canny", edged);
+    //cv::imshow("4. Canny", edged);
 
     // Морфологическое замыкание
     cv::Mat kernel = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(2, 3));
     cv::morphologyEx(edged, closed, cv::MORPH_CLOSE, kernel, cv::Point(-1, -1), 0);
     cv::dilate(edged, closed, kernel);
-    cv::imshow("5. Morphology", closed);
+    //cv::imshow("5. Morphology", closed);
 
     // Поиск контуров
     std::vector<std::vector<cv::Point>> contours;
@@ -83,7 +83,7 @@ cv::Mat correctPerspective(const cv::Mat &inputImage) {
     // Отображение всех найденных контуров
     cv::Mat contourImage = inputImage.clone();
     cv::drawContours(contourImage, contours, -1, cv::Scalar(0, 255, 0), 2);
-    cv::imshow("6. All contours", contourImage);
+    //cv::imshow("6. All contours", contourImage);
 
     // Фильтрация по площади контура
     std::vector<cv::Point> bestApprox;
@@ -149,7 +149,7 @@ cv::Mat correctPerspective(const cv::Mat &inputImage) {
     for (const auto &point : bestApprox) {
         cv::circle(approxImage, point, 5, cv::Scalar(0, 0, 255), -1);
     }
-    cv::imshow("7. Found recipe", approxImage);
+    //cv::imshow("7. Found recipe", approxImage);
 
     // Сортировка точек
     std::sort(bestApprox.begin(), bestApprox.end(), [](const cv::Point &a, const cv::Point &b) {
@@ -178,7 +178,7 @@ cv::Mat correctPerspective(const cv::Mat &inputImage) {
     cv::warpPerspective(inputImage, warped, transformMatrix, newSize);
 
 
-    cv::imshow("8. Corrected recipe", warped);
+    //cv::imshow("8. Corrected recipe", warped);
 
     return warped;
 }

@@ -20,7 +20,7 @@ void ExpenseReportDialog::on_generateButtonForExpenses_clicked() {
     QString startDate = ui->startDateEditForExpenses->date().toString("yyyy-MM-dd");
     QString endDate = ui->endDateEditForExpenses->date().toString("yyyy-MM-dd");
 
-    QString report = QString::fromStdString(GetReport(1, startDate.toStdString(), endDate.toStdString()));
+    QString report = QString::fromStdString(GetExpenseReport(1, startDate.toStdString(), endDate.toStdString()));
     ui->reportTextEditForExpenses->setText(report);
 }
 

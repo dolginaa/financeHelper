@@ -6,43 +6,18 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/___wctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__xlocale.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_abort.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_printf.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_wctype_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_wchar.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_xlocale.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/alloca.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_mcontext.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
@@ -379,22 +354,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/operations.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/terminate.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/container_adaptor.h \
@@ -515,6 +474,25 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/wrap_iter.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/copysign.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/error_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/exponential_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fdim.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fma.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hypot.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/logarithms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/min_max.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/modulo.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/roots.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/rounding_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/trigonometric_functions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mbstate_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/addressof.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/align.h \
@@ -794,12 +772,13 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstring \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
@@ -812,7 +791,9 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/limits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/new \
@@ -823,10 +804,14 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/streambuf \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple \
@@ -838,36 +823,19 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/variant \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/version \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/locale.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/arm/_structs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/nl_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/pthread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/qos.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/runetype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stddef.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdlib.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/__endian.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_endian.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h \
@@ -888,7 +856,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_caddr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h \
@@ -913,25 +880,18 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_key_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mach_port_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mbstate_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_offsetof.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ptrdiff_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h \
@@ -939,300 +899,194 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/qos.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/resource.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/signal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wchar.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg___gnuc_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg___va_copy.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_header_macro.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_arg.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_copy.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_list.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
-  /Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
-  /Users/adolgina/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
   /Users/adolgina/untitled1/include/storage.h \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/adl_serializer.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/byte_container_with_subtype.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/abi_macros.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/from_json.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_chars.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/conversions/to_json.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/exceptions.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/hash.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/binary_reader.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/input_adapters.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/json_sax.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/lexer.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/parser.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/input/position_t.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iter_impl.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_custom_base_class.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_pointer.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/json_ref.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_scope.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/macro_unscope.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/begin.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/call_std/end.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/cpp_future.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/detected.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/identity_tag.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/is_sax.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/std_fs.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/type_traits.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/meta/void_t.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/binary_writer.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/output_adapters.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/output/serializer.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_concat.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/string_escape.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/detail/value_t.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/json_fwd.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/ordered_map.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley.hpp \
-  /opt/homebrew/Cellar/nlohmann-json/3.11.3/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/QAbstractAxis \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/QAbstractSeries \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/QChart \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/QChartGlobal \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/QChartView \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/QLegend \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/QPieSeries \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/QPieSlice \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/qabstractaxis.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/qabstractseries.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/qchart.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/qchartglobal.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/qchartview.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/qlegend.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/qpieseries.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/qpieslice.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/qtcharts-config.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCharts.framework/Versions/A/Headers/qtchartsexports.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/QList \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/QMargins \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/QObject \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/QRect \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/QSize \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/QSizeF \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/QVariant \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qassert.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qchar.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcomparehelpers.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcoreapplication.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcoreapplication_platform.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qendian.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qeventloop.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qflags.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qhash.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qline.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qlist.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qmap.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qmath.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qnativeinterface.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qobject.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qpair.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qrect.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qset.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qsize.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qspan.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qstring.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qstringconverter.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qswap.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtdeprecationdefinitions.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qurl.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/QBrush \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/QFont \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/QPen \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/QTransform \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qaction.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qevent.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qeventpoint.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qfont.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qguiapplication.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qguiapplication_platform.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qicon.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qimage.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qinputdevice.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpen.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qregion.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qvector2d.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsWidget \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qgraphicslayoutitem.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qgraphicswidget.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
-  /opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/adl_serializer.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/byte_container_with_subtype.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/abi_macros.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/from_json.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_chars.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/exceptions.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/hash.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/binary_reader.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/input_adapters.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/json_sax.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/lexer.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/parser.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/input/position_t.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_custom_base_class.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_pointer.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/json_ref.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_scope.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/call_std/end.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/cpp_future.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/detected.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/identity_tag.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/is_sax.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/std_fs.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/type_traits.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/meta/void_t.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/binary_writer.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/output_adapters.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/output/serializer.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_concat.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/string_escape.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/detail/value_t.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/json_fwd.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/ordered_map.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /Users/adolgina/untitled1/third_party/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  /opt/anaconda3/include/qt/QtCharts/QAbstractAxis \
+  /opt/anaconda3/include/qt/QtCharts/QAbstractSeries \
+  /opt/anaconda3/include/qt/QtCharts/QChart \
+  /opt/anaconda3/include/qt/QtCharts/QChartGlobal \
+  /opt/anaconda3/include/qt/QtCharts/QChartView \
+  /opt/anaconda3/include/qt/QtCharts/QLegend \
+  /opt/anaconda3/include/qt/QtCharts/QPieSeries \
+  /opt/anaconda3/include/qt/QtCharts/QPieSlice \
+  /opt/anaconda3/include/qt/QtCharts/qabstractaxis.h \
+  /opt/anaconda3/include/qt/QtCharts/qabstractseries.h \
+  /opt/anaconda3/include/qt/QtCharts/qchart.h \
+  /opt/anaconda3/include/qt/QtCharts/qchartglobal.h \
+  /opt/anaconda3/include/qt/QtCharts/qchartview.h \
+  /opt/anaconda3/include/qt/QtCharts/qlegend.h \
+  /opt/anaconda3/include/qt/QtCharts/qpieseries.h \
+  /opt/anaconda3/include/qt/QtCharts/qpieslice.h \
+  /opt/anaconda3/include/qt/QtCore/QMargins \
+  /opt/anaconda3/include/qt/QtCore/QObject \
+  /opt/anaconda3/include/qt/QtCore/QVariant \
+  /opt/anaconda3/include/qt/QtCore/QtGlobal \
+  /opt/anaconda3/include/qt/QtCore/qalgorithms.h \
+  /opt/anaconda3/include/qt/QtCore/qarraydata.h \
+  /opt/anaconda3/include/qt/QtCore/qatomic.h \
+  /opt/anaconda3/include/qt/QtCore/qbasicatomic.h \
+  /opt/anaconda3/include/qt/QtCore/qbytearray.h \
+  /opt/anaconda3/include/qt/QtCore/qbytearraylist.h \
+  /opt/anaconda3/include/qt/QtCore/qchar.h \
+  /opt/anaconda3/include/qt/QtCore/qcompilerdetection.h \
+  /opt/anaconda3/include/qt/QtCore/qconfig.h \
+  /opt/anaconda3/include/qt/QtCore/qcontainerfwd.h \
+  /opt/anaconda3/include/qt/QtCore/qcontainertools_impl.h \
+  /opt/anaconda3/include/qt/QtCore/qcoreevent.h \
+  /opt/anaconda3/include/qt/QtCore/qdatastream.h \
+  /opt/anaconda3/include/qt/QtCore/qfile.h \
+  /opt/anaconda3/include/qt/QtCore/qfiledevice.h \
+  /opt/anaconda3/include/qt/QtCore/qflags.h \
+  /opt/anaconda3/include/qt/QtCore/qglobal.h \
+  /opt/anaconda3/include/qt/QtCore/qglobalstatic.h \
+  /opt/anaconda3/include/qt/QtCore/qhash.h \
+  /opt/anaconda3/include/qt/QtCore/qhashfunctions.h \
+  /opt/anaconda3/include/qt/QtCore/qiodevice.h \
+  /opt/anaconda3/include/qt/QtCore/qiterator.h \
+  /opt/anaconda3/include/qt/QtCore/qline.h \
+  /opt/anaconda3/include/qt/QtCore/qlist.h \
+  /opt/anaconda3/include/qt/QtCore/qlogging.h \
+  /opt/anaconda3/include/qt/QtCore/qmap.h \
+  /opt/anaconda3/include/qt/QtCore/qmargins.h \
+  /opt/anaconda3/include/qt/QtCore/qmetatype.h \
+  /opt/anaconda3/include/qt/QtCore/qmutex.h \
+  /opt/anaconda3/include/qt/QtCore/qnamespace.h \
+  /opt/anaconda3/include/qt/QtCore/qnumeric.h \
+  /opt/anaconda3/include/qt/QtCore/qobject.h \
+  /opt/anaconda3/include/qt/QtCore/qobject_impl.h \
+  /opt/anaconda3/include/qt/QtCore/qobjectdefs.h \
+  /opt/anaconda3/include/qt/QtCore/qobjectdefs_impl.h \
+  /opt/anaconda3/include/qt/QtCore/qpair.h \
+  /opt/anaconda3/include/qt/QtCore/qpoint.h \
+  /opt/anaconda3/include/qt/QtCore/qprocessordetection.h \
+  /opt/anaconda3/include/qt/QtCore/qrect.h \
+  /opt/anaconda3/include/qt/QtCore/qrefcount.h \
+  /opt/anaconda3/include/qt/QtCore/qregexp.h \
+  /opt/anaconda3/include/qt/QtCore/qscopedpointer.h \
+  /opt/anaconda3/include/qt/QtCore/qset.h \
+  /opt/anaconda3/include/qt/QtCore/qshareddata.h \
+  /opt/anaconda3/include/qt/QtCore/qsharedpointer.h \
+  /opt/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
+  /opt/anaconda3/include/qt/QtCore/qsize.h \
+  /opt/anaconda3/include/qt/QtCore/qstring.h \
+  /opt/anaconda3/include/qt/QtCore/qstringalgorithms.h \
+  /opt/anaconda3/include/qt/QtCore/qstringlist.h \
+  /opt/anaconda3/include/qt/QtCore/qstringliteral.h \
+  /opt/anaconda3/include/qt/QtCore/qstringmatcher.h \
+  /opt/anaconda3/include/qt/QtCore/qstringview.h \
+  /opt/anaconda3/include/qt/QtCore/qsysinfo.h \
+  /opt/anaconda3/include/qt/QtCore/qsystemdetection.h \
+  /opt/anaconda3/include/qt/QtCore/qtcore-config.h \
+  /opt/anaconda3/include/qt/QtCore/qtypeinfo.h \
+  /opt/anaconda3/include/qt/QtCore/qurl.h \
+  /opt/anaconda3/include/qt/QtCore/qvariant.h \
+  /opt/anaconda3/include/qt/QtCore/qvarlengtharray.h \
+  /opt/anaconda3/include/qt/QtCore/qvector.h \
+  /opt/anaconda3/include/qt/QtCore/qversiontagging.h \
+  /opt/anaconda3/include/qt/QtGui/QBrush \
+  /opt/anaconda3/include/qt/QtGui/QFont \
+  /opt/anaconda3/include/qt/QtGui/QPen \
+  /opt/anaconda3/include/qt/QtGui/qbrush.h \
+  /opt/anaconda3/include/qt/QtGui/qcolor.h \
+  /opt/anaconda3/include/qt/QtGui/qcursor.h \
+  /opt/anaconda3/include/qt/QtGui/qevent.h \
+  /opt/anaconda3/include/qt/QtGui/qfont.h \
+  /opt/anaconda3/include/qt/QtGui/qfontinfo.h \
+  /opt/anaconda3/include/qt/QtGui/qfontmetrics.h \
+  /opt/anaconda3/include/qt/QtGui/qimage.h \
+  /opt/anaconda3/include/qt/QtGui/qkeysequence.h \
+  /opt/anaconda3/include/qt/QtGui/qmatrix.h \
+  /opt/anaconda3/include/qt/QtGui/qpaintdevice.h \
+  /opt/anaconda3/include/qt/QtGui/qpainter.h \
+  /opt/anaconda3/include/qt/QtGui/qpainterpath.h \
+  /opt/anaconda3/include/qt/QtGui/qpalette.h \
+  /opt/anaconda3/include/qt/QtGui/qpen.h \
+  /opt/anaconda3/include/qt/QtGui/qpixelformat.h \
+  /opt/anaconda3/include/qt/QtGui/qpixmap.h \
+  /opt/anaconda3/include/qt/QtGui/qpolygon.h \
+  /opt/anaconda3/include/qt/QtGui/qregion.h \
+  /opt/anaconda3/include/qt/QtGui/qrgb.h \
+  /opt/anaconda3/include/qt/QtGui/qrgba64.h \
+  /opt/anaconda3/include/qt/QtGui/qtextoption.h \
+  /opt/anaconda3/include/qt/QtGui/qtgui-config.h \
+  /opt/anaconda3/include/qt/QtGui/qtguiglobal.h \
+  /opt/anaconda3/include/qt/QtGui/qtouchdevice.h \
+  /opt/anaconda3/include/qt/QtGui/qtransform.h \
+  /opt/anaconda3/include/qt/QtGui/qvector2d.h \
+  /opt/anaconda3/include/qt/QtGui/qwindowdefs.h \
+  /opt/anaconda3/include/qt/QtWidgets/QGraphicsView \
+  /opt/anaconda3/include/qt/QtWidgets/QGraphicsWidget \
+  /opt/anaconda3/include/qt/QtWidgets/QWidget \
+  /opt/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h \
+  /opt/anaconda3/include/qt/QtWidgets/qframe.h \
+  /opt/anaconda3/include/qt/QtWidgets/qgraphicsitem.h \
+  /opt/anaconda3/include/qt/QtWidgets/qgraphicslayoutitem.h \
+  /opt/anaconda3/include/qt/QtWidgets/qgraphicsscene.h \
+  /opt/anaconda3/include/qt/QtWidgets/qgraphicsview.h \
+  /opt/anaconda3/include/qt/QtWidgets/qgraphicswidget.h \
+  /opt/anaconda3/include/qt/QtWidgets/qscrollarea.h \
+  /opt/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
+  /opt/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
+  /opt/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
+  /opt/anaconda3/include/qt/QtWidgets/qwidget.h

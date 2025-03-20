@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'expense_report_dialog.ui'
 **
-** Created by: Qt User Interface Compiler version 6.8.0
+** Created by: Qt User Interface Compiler version 6.8.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -78,7 +78,7 @@ public:
 
     void retranslateUi(QDialog *ExpenseReportDialog)
     {
-        ExpenseReportDialog->setWindowTitle(QCoreApplication::translate("ExpenseReportDialog", "Dialog", nullptr));
+        ExpenseReportDialog->setWindowTitle(QCoreApplication::translate("ExpenseReportDialog", "Expense Report", nullptr));
         label->setText(QCoreApplication::translate("ExpenseReportDialog", "\320\222\321\213\320\261\320\265\321\200\320\270\321\202\320\265 \320\277\320\265\321\200\320\270\320\276\320\264", nullptr));
         label_2->setText(QCoreApplication::translate("ExpenseReportDialog", "\320\236\321\202\321\207\321\221\321\202 \320\261\321\203\320\264\320\265\321\202 \321\201\321\204\320\276\321\200\320\274\320\270\321\200\320\276\320\262\320\260\320\275 \320\277\320\276 \320\277\321\203\321\202\320\270:", nullptr));
         exportButtonForExpenses->setText(QCoreApplication::translate("ExpenseReportDialog", "\320\255\320\272\321\201\320\277\320\276\321\200\321\202\320\270\321\200\320\276\320\262\320\260\321\202\321\214 \320\262 CSV", nullptr));

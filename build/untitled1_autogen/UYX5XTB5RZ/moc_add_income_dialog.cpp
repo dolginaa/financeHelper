@@ -1,54 +1,52 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'add_income_dialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../ui/add_income_dialog.h"
-#include <QtCore/qmetatype.h>
-
-#include <QtCore/qtmochelpers.h>
-
 #include <memory>
-
-
-#include <QtCore/qxptype_traits.h>
+#include "../../../ui/add_income_dialog.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'add_income_dialog.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.8.0. It"
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-#ifndef Q_CONSTINIT
-#define Q_CONSTINIT
-#endif
-
+QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-QT_WARNING_DISABLE_GCC("-Wuseless-cast")
-namespace {
+struct qt_meta_stringdata_AddIncomeDialog_t {
+    QByteArrayData data[4];
+    char stringdata0[62];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_AddIncomeDialog_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_AddIncomeDialog_t qt_meta_stringdata_AddIncomeDialog = {
+    {
+QT_MOC_LITERAL(0, 0, 15), // "AddIncomeDialog"
+QT_MOC_LITERAL(1, 16, 20), // "on_addButton_clicked"
+QT_MOC_LITERAL(2, 37, 0), // ""
+QT_MOC_LITERAL(3, 38, 23) // "on_cancelButton_clicked"
 
-#ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSAddIncomeDialogENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSAddIncomeDialogENDCLASS = QtMocHelpers::stringData(
-    "AddIncomeDialog",
-    "on_addButton_clicked",
-    "",
-    "on_cancelButton_clicked"
-);
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
-} // unnamed namespace
+    },
+    "AddIncomeDialog\0on_addButton_clicked\0"
+    "\0on_cancelButton_clicked"
+};
+#undef QT_MOC_LITERAL
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSAddIncomeDialogENDCLASS[] = {
+static const uint qt_meta_data_AddIncomeDialog[] = {
 
  // content:
-      12,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
        2,   14, // methods
@@ -58,9 +56,9 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSAddIncomeDialogENDCLASS[] = {
        0,       // flags
        0,       // signalCount
 
- // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   26,    2, 0x08,    1 /* Private */,
-       3,    0,   27,    2, 0x08,    2 /* Private */,
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   24,    2, 0x08 /* Private */,
+       3,    0,   25,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -69,36 +67,29 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSAddIncomeDialogENDCLASS[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject AddIncomeDialog::staticMetaObject = { {
-    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
-    qt_meta_stringdata_CLASSAddIncomeDialogENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSAddIncomeDialogENDCLASS,
-    qt_static_metacall,
-    nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSAddIncomeDialogENDCLASS_t,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<AddIncomeDialog, std::true_type>,
-        // method 'on_addButton_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_cancelButton_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>
-    >,
-    nullptr
-} };
-
 void AddIncomeDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<AddIncomeDialog *>(_o);
-        (void)_t;
+        Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->on_addButton_clicked(); break;
         case 1: _t->on_cancelButton_clicked(); break;
         default: ;
         }
     }
-    (void)_a;
+    Q_UNUSED(_a);
 }
+
+QT_INIT_METAOBJECT const QMetaObject AddIncomeDialog::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
+    qt_meta_stringdata_AddIncomeDialog.data,
+    qt_meta_data_AddIncomeDialog,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
 
 const QMetaObject *AddIncomeDialog::metaObject() const
 {
@@ -108,7 +99,7 @@ const QMetaObject *AddIncomeDialog::metaObject() const
 void *AddIncomeDialog::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSAddIncomeDialogENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_AddIncomeDialog.stringdata0))
         return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
@@ -124,9 +115,10 @@ int AddIncomeDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         _id -= 2;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 2)
-            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+            *reinterpret_cast<int*>(_a[0]) = -1;
         _id -= 2;
     }
     return _id;
 }
 QT_WARNING_POP
+QT_END_MOC_NAMESPACE

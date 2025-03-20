@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'report_dialog.ui'
 **
-** Created by: Qt User Interface Compiler version 6.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,7 +10,6 @@
 #define UI_REPORT_DIALOG_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAbstractButton>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDateEdit>
 #include <QtWidgets/QDialog>
@@ -37,41 +36,41 @@ public:
     void setupUi(QDialog *ReportDialog)
     {
         if (ReportDialog->objectName().isEmpty())
-            ReportDialog->setObjectName("ReportDialog");
+            ReportDialog->setObjectName(QString::fromUtf8("ReportDialog"));
         ReportDialog->resize(400, 300);
         buttonBox = new QDialogButtonBox(ReportDialog);
-        buttonBox->setObjectName("buttonBox");
+        buttonBox->setObjectName(QString::fromUtf8("buttonBox"));
         buttonBox->setGeometry(QRect(30, 240, 341, 32));
         buttonBox->setOrientation(Qt::Orientation::Horizontal);
         buttonBox->setStandardButtons(QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Ok);
         label = new QLabel(ReportDialog);
-        label->setObjectName("label");
+        label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(90, 20, 121, 16));
         startDateEdit = new QDateEdit(ReportDialog);
-        startDateEdit->setObjectName("startDateEdit");
+        startDateEdit->setObjectName(QString::fromUtf8("startDateEdit"));
         startDateEdit->setGeometry(QRect(20, 50, 110, 22));
         endDateEdit = new QDateEdit(ReportDialog);
-        endDateEdit->setObjectName("endDateEdit");
+        endDateEdit->setObjectName(QString::fromUtf8("endDateEdit"));
         endDateEdit->setGeometry(QRect(160, 50, 110, 22));
         generateButton = new QPushButton(ReportDialog);
-        generateButton->setObjectName("generateButton");
+        generateButton->setObjectName(QString::fromUtf8("generateButton"));
         generateButton->setGeometry(QRect(30, 80, 151, 32));
         reportTextEdit = new QTextEdit(ReportDialog);
-        reportTextEdit->setObjectName("reportTextEdit");
+        reportTextEdit->setObjectName(QString::fromUtf8("reportTextEdit"));
         reportTextEdit->setGeometry(QRect(30, 200, 251, 21));
         exportButton = new QPushButton(ReportDialog);
-        exportButton->setObjectName("exportButton");
+        exportButton->setObjectName(QString::fromUtf8("exportButton"));
         exportButton->setGeometry(QRect(30, 220, 161, 32));
         label_2 = new QLabel(ReportDialog);
-        label_2->setObjectName("label_2");
+        label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(140, 50, 16, 16));
         label_3 = new QLabel(ReportDialog);
-        label_3->setObjectName("label_3");
+        label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(30, 170, 231, 16));
 
         retranslateUi(ReportDialog);
-        QObject::connect(buttonBox, &QDialogButtonBox::accepted, ReportDialog, qOverload<>(&QDialog::accept));
-        QObject::connect(buttonBox, &QDialogButtonBox::rejected, ReportDialog, qOverload<>(&QDialog::reject));
+        QObject::connect(buttonBox, SIGNAL(accepted()), ReportDialog, SLOT(accept()));
+        QObject::connect(buttonBox, SIGNAL(rejected()), ReportDialog, SLOT(reject()));
 
         QMetaObject::connectSlotsByName(ReportDialog);
     } // setupUi

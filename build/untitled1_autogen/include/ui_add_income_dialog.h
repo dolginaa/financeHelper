@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'add_income_dialog.ui'
 **
-** Created by: Qt User Interface Compiler version 6.8.0
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,7 +10,6 @@
 #define UI_ADD_INCOME_DIALOG_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAbstractButton>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
@@ -35,35 +34,35 @@ public:
     void setupUi(QDialog *AddIncomeDialog)
     {
         if (AddIncomeDialog->objectName().isEmpty())
-            AddIncomeDialog->setObjectName("AddIncomeDialog");
+            AddIncomeDialog->setObjectName(QString::fromUtf8("AddIncomeDialog"));
         AddIncomeDialog->resize(400, 300);
         buttonBox = new QDialogButtonBox(AddIncomeDialog);
-        buttonBox->setObjectName("buttonBox");
+        buttonBox->setObjectName(QString::fromUtf8("buttonBox"));
         buttonBox->setGeometry(QRect(30, 240, 341, 32));
         buttonBox->setOrientation(Qt::Orientation::Horizontal);
         buttonBox->setStandardButtons(QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Ok);
         label = new QLabel(AddIncomeDialog);
-        label->setObjectName("label");
+        label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(20, 30, 111, 20));
         incomeAmount = new QLineEdit(AddIncomeDialog);
-        incomeAmount->setObjectName("incomeAmount");
+        incomeAmount->setObjectName(QString::fromUtf8("incomeAmount"));
         incomeAmount->setGeometry(QRect(20, 60, 113, 21));
         label_2 = new QLabel(AddIncomeDialog);
-        label_2->setObjectName("label_2");
+        label_2->setObjectName(QString::fromUtf8("label_2"));
         label_2->setGeometry(QRect(190, 30, 101, 20));
         incomeFrequency = new QComboBox(AddIncomeDialog);
-        incomeFrequency->setObjectName("incomeFrequency");
+        incomeFrequency->setObjectName(QString::fromUtf8("incomeFrequency"));
         incomeFrequency->setGeometry(QRect(190, 60, 103, 32));
         addButton = new QPushButton(AddIncomeDialog);
-        addButton->setObjectName("addButton");
+        addButton->setObjectName(QString::fromUtf8("addButton"));
         addButton->setGeometry(QRect(100, 110, 100, 32));
         cancelButton = new QPushButton(AddIncomeDialog);
-        cancelButton->setObjectName("cancelButton");
+        cancelButton->setObjectName(QString::fromUtf8("cancelButton"));
         cancelButton->setGeometry(QRect(40, 240, 100, 32));
 
         retranslateUi(AddIncomeDialog);
-        QObject::connect(buttonBox, &QDialogButtonBox::accepted, AddIncomeDialog, qOverload<>(&QDialog::accept));
-        QObject::connect(buttonBox, &QDialogButtonBox::rejected, AddIncomeDialog, qOverload<>(&QDialog::reject));
+        QObject::connect(buttonBox, SIGNAL(accepted()), AddIncomeDialog, SLOT(accept()));
+        QObject::connect(buttonBox, SIGNAL(rejected()), AddIncomeDialog, SLOT(reject()));
 
         QMetaObject::connectSlotsByName(AddIncomeDialog);
     } // setupUi
