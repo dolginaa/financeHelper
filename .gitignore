@@ -1,24 +1,26 @@
 # Qt build files
-*.pro.user
-*.obj
-*.o
-*.so
-*.dll
-*.dylib
-*.a
-*.lib
-*.exe
-*.app
-*.qmake.stash
-*.qmake.cache
-*.moc
-*.qrc
-*.rcc
-*.res
+**/*.pro.user
+**/*.obj
+**/*.o
+**/*.so
+**/*.dll
+**/*.dylib
+**/*.a
+**/*.lib
+**/*.exe
+**/*.app
+**/*.qmake.stash
+**/*.qmake.cache
+**/*.moc
+**/*.qrc
+**/*.rcc
+**/*.res
+**/bin/
+**/*.dSYM/
 
 # Qt Creator
 .idea/
-*.pro.user*
-*.qbs.user*
+**/*.pro.user*
+**/*.qbs.user*
 
 build

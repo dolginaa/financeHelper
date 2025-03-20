@@ -1,0 +1,21 @@
+QT_ARCH = x86_64
+QT_BUILDABI = x86_64-little_endian-lp64
+QT_LIBCPP_ABI_TAG = 
+QT.global.enabled_features = version_tagging shared separate_debug_info rpath framework signaling_nan thread future concurrent dbus opensslv30 shared trivial_auto_var_init_pattern stack_protector libcpp_hardening shared separate_debug_info rpath reduce_exports openssl
+QT.global.disabled_features = static cross_compile pkg-config debug_and_release appstore-compliant simulator_and_device force_asserts c++20 c++2a c++2b reduce_relocations wasm-simd128 wasm-exceptions zstd openssl-linked opensslv11
+QT.global.disabled_features += release build_all
+QT_CONFIG += shared no-pkg-config separate_debug_info rpath qt_framework reduce_exports openssl release
+CONFIG +=  shared qt_framework plugin_manifest trivial_auto_var_init_pattern stack_protector libcpp_hardening
+QT_VERSION = 6.8.0
+QT_MAJOR_VERSION = 6
+QT_MINOR_VERSION = 8
+QT_PATCH_VERSION = 0
+
+QT_APPLE_CLANG_MAJOR_VERSION = 15
+QT_APPLE_CLANG_MINOR_VERSION = 0
+QT_APPLE_CLANG_PATCH_VERSION = 0
+QT_MAC_SDK_VERSION = 14.4
+QMAKE_MACOSX_DEPLOYMENT_TARGET = 12.0
+QT_MAC_SDK_VERSION_MIN = 14
+QT_MAC_SDK_VERSION_MAX = 15
+QT_ARCHS = x86_64 arm64

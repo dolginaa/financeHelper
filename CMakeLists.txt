@@ -30,18 +30,16 @@ set(BOOST_LIB_DIR "${BOOST_PREFIX_PATH}/lib")
 set(POPPLER_INCLUDE_DIR "${POPPLER_PREFIX_PATH}/include")
 set(POPPLER_LIB_DIR "${POPPLER_PREFIX_PATH}/lib")
 
-# Поиск Qt ТОЛЬКО в third_party/qt
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport PATHS "${QT_PREFIX_PATH}" NO_DEFAULT_PATH)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport PATHS "${QT_PREFIX_PATH}" NO_DEFAULT_PATH)
+set(Qt6_DIR "${QT_PREFIX_PATH}")
 
-# Поиск других библиотек в third_party
+find_package(Qt6 CONFIG REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport PATHS "${QT_PREFIX_PATH}" NO_DEFAULT_PATH)
+
 find_package(OpenCV REQUIRED)
 find_package(nlohmann_json REQUIRED PATHS "${NLOHMANN_JSON_PREFIX_PATH}" NO_DEFAULT_PATH)
 
 add_subdirectory(${CMAKE_SOURCE_DIR}/third_party/googletest)
 include_directories(${GTEST_INCLUDE_DIRS})
 
-# Поиск Poppler
 find_library(POPPLER_LIB poppler PATHS ${POPPLER_LIB_DIR} NO_DEFAULT_PATH)
 find_library(POPPLER_CPP_LIB poppler-cpp PATHS ${POPPLER_LIB_DIR} NO_DEFAULT_PATH)
 find_path(POPPLER_INCLUDE_DIR poppler-config.h PATHS ${POPPLER_INCLUDE_DIR} NO_DEFAULT_PATH)
@@ -75,16 +73,13 @@ set(PROJECT_SOURCES
     src/api.cpp
 )
 
-if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(untitled1
-        MANUAL_FINALIZATION
-        ${PROJECT_SOURCES}
-    )
-else()
-    add_executable(untitled1 ${PROJECT_SOURCES})
-endif()
+qt_add_executable(untitled1
+    MANUAL_FINALIZATION
+    ${PROJECT_SOURCES}
+)
 
-target_include_directories(untitled1 PRIVATE include ui ${CMAKE_BINARY_DIR}/untitled1_autogen/include)
+
+target_include_directories(untitled1 PRIVATE include ui ${CMAKE_BINARY_DIR}/untitled1_autogen/include ${TESSERACT_INCLUDE_DIR} ${LEPTONICA_INCLUDE_DIR})
 
 target_link_libraries(untitled1 PRIVATE
     Qt${QT_VERSION_MAJOR}::Widgets

@@ -1,0 +1,16 @@
+QT.core_private.VERSION = 6.8.0
+QT.core_private.name = QtCore
+QT.core_private.module =
+QT.core_private.libs = $$QT_MODULE_LIB_BASE
+QT.core_private.includes = $$QT_MODULE_LIB_BASE/QtCore.framework/Versions/A/Headers/6.8.0 $$QT_MODULE_LIB_BASE/QtCore.framework/Versions/A/Headers/6.8.0/QtCore
+QT.core_private.frameworks = 
+QT.core_private.depends = core
+QT.core_private.uses = 
+QT.core_private.module_config = v2 lib_bundle internal_module
+QT.core_private.enabled_features = clock-gettime doubleconversion dladdr futimens getentropy memmem mimetype-database poll_poll posix_sem posix_shm sysv_sem sysv_shm backtrace sha3-fast hijricalendar datetimeparser pcre2 reduce_exports x86intrin sse2 sse3 ssse3 sse4_1 sse4_2 avx f16c avx2 avx512f avx512er avx512cd avx512pf avx512dq avx512bw avx512vl avx512ifma avx512vbmi avx512vbmi2 aesni vaes rdrnd rdseed shani neon localtime_r alloca_h alloca system-zlib dbus gui network printsupport sql testlib widgets xml openssl dlopen relocatable trivial_auto_var_init_pattern stack_protector libcpp_hardening force_debug_info largefile precompile_header sse2 sse3 ssse3 sse4_1 sse4_2 avx f16c avx2 avx512f avx512er avx512cd avx512pf avx512dq avx512bw avx512vl avx512ifma avx512vbmi avx512vbmi2 aesni vaes rdrnd rdseed shani neon
+QT.core_private.disabled_features = close_range system-doubleconversion getauxval glib icu inotify journald system-libb2 linkat memrchr system-pcre2 poll_ppoll poll_pollts poll_select qqnx_pps renameat2 slog2 syslog cxx23_stacktrace cpp-winrt timezone_locale lttng etw ctf forkfd_pidfd poll-exit-on-error openssl-hash use_bfd_linker use_gold_linker use_lld_linker use_mold_linker android-style-assets gc_binaries developer-build private_tests debug elf_private_full_version no_direct_extern_access mips_dsp mips_dspr2 arm_crc32 arm_crypto localtime_s posix_fallocate alloca_malloc_h stdlib-libcpp dbus-linked libudev intelcet glibc_fortify_source stack_clash_protection libstdcpp_assertions relro_now_linker
+QMAKE_INCDIR_OPENSSL = /usr/local/openssl-3.0.7/include
+QMAKE_LIBS_OPENSSL = -L"/usr/local/openssl-3.0.7/lib" -lssl -lcrypto
+QMAKE_LIBS_BACKTRACE = 
+QMAKE_LIBS_LIBATOMIC = 
+QMAKE_LIBS_LIBRT = 

@@ -1,0 +1,787 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-10-02T08:38:48Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.27.7, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-6.8.0",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "e80f3afa32d596e1b11b6583802280b26f5d4f74"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qtsvg-6.8.0",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qtsvg-6.8.0",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-compiler",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "AppleClang",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "The compiler as identified by CMake, running on Darwin (x86_64)",
+            "supplier": "Organization: Anonymous",
+            "versionInfo": "15.0.0.15000309"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsvg",
+            "builtDate": "2024-10-02T08:38:48Z",
+            "comment": "Built by CMake 3.27.7 with RelWithDebInfo configuration for Darwin (x86_64)",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtsvg.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsvg@6.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": true,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qtsvg",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "44e0a7fd938153c49e9fcc30c8994e46c175622b"
+            },
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsvg-qt-3rdparty-sources-Svg-Attribution-xsvg",
+            "comment": "\n    Name: XSVG\n    Description: Some code for arc handling is derived from code from the XSVG project.\n    Qt usage: Used in the Qt SVG library.\n    Information extracted from:\n     /Users/qt/work/qt/qtsvg/src/svg/qt_attribution.json\n    Entry index: 0\n",
+            "copyrightText": "Copyright 2002 USC/Information Sciences Institute",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtsvg?library_name=Svg_Attribution_xsvg#src/svg",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsvg-Svg_Attribution_xsvg?vcs_url=https://code.qt.io/qt/qtsvg.git&library_name=Svg_Attribution_xsvg#src/svg",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtsvg:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "HPND-sell-variant",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Svg_Attribution_xsvg",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "unknown"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtsvg.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtsvg?library_name=Svg#src/svg",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsvg-Svg?vcs_url=https://code.qt.io/qt/qtsvg.git&library_name=Svg#src/svg",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtsvg:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "Svg",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsvg-qt-plugin-QSvgIconPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtsvg.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtsvg?library_name=QSvgIconPlugin#src/plugins/iconengines/svgiconengine",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsvg-QSvgIconPlugin?vcs_url=https://code.qt.io/qt/qtsvg.git&library_name=QSvgIconPlugin#src/plugins/iconengines/svgiconengine",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtsvg:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "QSvgIconPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsvg-qt-plugin-QSvgPlugin",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtsvg.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtsvg?library_name=QSvgPlugin#src/plugins/imageformats/svg",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsvg-QSvgPlugin?vcs_url=https://code.qt.io/qt/qtsvg.git&library_name=QSvgPlugin#src/plugins/imageformats/svg",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtsvg:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "QSvgPlugin",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsvg-qt-module-SvgWidgets",
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "downloadLocation": "git://code.qt.io/qt/qtsvg.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qtsvg?library_name=SvgWidgets#src/svgwidgets",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qtsvg-SvgWidgets?vcs_url=https://code.qt.io/qt/qtsvg.git&library_name=SvgWidgets#src/svgwidgets",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qtsvg:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.8.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "SvgWidgets",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.8.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qtsvg-system-3rdparty-WrapZLIB",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": true,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "WrapZLIB",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Anonymous",
+            "versionInfo": "1.2.12"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-Svg",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "5a500f4c3f8a4c83624bfb585decb0619d2f2bbe"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/QtSvg.framework/Versions/A/QtSvg",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QSvgIconPlugin",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "0f7084256f9370979555282f405668a7236726d8"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/iconengines/libqsvgicon.dylib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-QSvgPlugin",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "188ac5ca41ecdbe2e68b570cb26b88d7242ad0b6"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./plugins/imageformats/libqsvg.dylib",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d94b7e74ba145289b68d90030f4e5e38bfdd1df7"
+                }
+            ],
+            "copyrightText": "Copyright (C) 2024 The Qt Company Ltd.",
+            "fileName": "./lib/QtSvgWidgets.framework/Versions/A/QtSvgWidgets",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-compiler",
+            "comment": "SPDXRef-Package-qtsvg is built by compiler AppleClang (/usr/bin/clang++) version 15.0.0.15000309",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg-qt-3rdparty-sources-Svg-Attribution-xsvg",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg-system-3rdparty-WrapZLIB",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg-qt-3rdparty-sources-Svg-Attribution-xsvg",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Svg",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Svg",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg//Users/qt/work/qt/qtsvg_build/include/QtSvg/qtsvgexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgfont.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgfont_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvggenerator.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvggenerator.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvggraphics.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvggraphics_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvghandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvghandler_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgnode.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgnode_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgrenderer.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgrenderer.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgstructure.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgstructure_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgfilter.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgfilter_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgstyle.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgstyle_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgtinydocument.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgtinydocument_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvghelper_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgdebug.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgvisitor.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qsvgvisitor_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qtsvgglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg/qtsvgglobal_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg//Users/qt/work/qt/qtsvg_build/src/svg/meta_types/qt6svg_relwithdebinfo_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg//Users/qt/work/qt/qtsvg_build/src/svg/Svg_fake_header.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Svg",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svg//Users/qt/work/install/lib/cmake/Qt6/macos/PrivacyInfo.xcprivacy",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgIconPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgIconPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgIconPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgIconPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg-qt-plugin-QSvgIconPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgIconPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QSvgIconPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgIconPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QSvgIconPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QSvgIconPlugin",
+            "comment": "/Users/qt/work/qt/qtsvg/src/plugins/iconengines/svgiconengine/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QSvgIconPlugin",
+            "comment": "/Users/qt/work/qt/qtsvg/src/plugins/iconengines/svgiconengine/qsvgiconengine.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QSvgIconPlugin",
+            "comment": "/Users/qt/work/qt/qtsvg/src/plugins/iconengines/svgiconengine/qsvgiconengine.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QSvgIconPlugin",
+            "comment": "/Users/qt/work/qt/qtsvg/src/plugins/iconengines/svgiconengine//Users/qt/work/qt/qtsvg_build/src/plugins/iconengines/svgiconengine/meta_types/qt6qsvgiconplugin_relwithdebinfo_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgPlugin",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgPlugin",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg-qt-plugin-QSvgPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QSvgPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-plugin-QSvgPlugin",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-QSvgPlugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QSvgPlugin",
+            "comment": "/Users/qt/work/qt/qtsvg/src/plugins/imageformats/svg/main.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QSvgPlugin",
+            "comment": "/Users/qt/work/qt/qtsvg/src/plugins/imageformats/svg/qsvgiohandler.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QSvgPlugin",
+            "comment": "/Users/qt/work/qt/qtsvg/src/plugins/imageformats/svg/qsvgiohandler.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-QSvgPlugin",
+            "comment": "/Users/qt/work/qt/qtsvg/src/plugins/imageformats/svg//Users/qt/work/qt/qtsvg_build/src/plugins/imageformats/svg/meta_types/qt6qsvgplugin_relwithdebinfo_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-SvgWidgets",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Core",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-SvgWidgets",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Gui",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-SvgWidgets",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-Widgets",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-SvgWidgets",
+            "relatedSpdxElement": "DocumentRef-qtbase:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-SvgWidgets",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg-qt-module-Svg",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg-qt-module-SvgWidgets",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-SvgWidgets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg-qt-module-SvgWidgets",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svgwidgets//Users/qt/work/qt/qtsvg_build/include/QtSvgWidgets/qtsvgwidgetsexports.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svgwidgets/qsvgwidget.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svgwidgets/qsvgwidget.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svgwidgets/qtsvgwidgetsglobal.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svgwidgets//Users/qt/work/qt/qtsvg_build/src/svgwidgets/meta_types/qt6svgwidgets_relwithdebinfo_metatypes.json.gen",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svgwidgets/qgraphicssvgitem.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svgwidgets/qgraphicssvgitem.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svgwidgets//Users/qt/work/qt/qtsvg_build/src/svgwidgets/SvgWidgets_fake_header.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-SvgWidgets",
+            "comment": "/Users/qt/work/qt/qtsvg/src/svgwidgets//Users/qt/work/install/lib/cmake/Qt6/macos/PrivacyInfo.xcprivacy",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qtsvg",
+            "relatedSpdxElement": "SPDXRef-Package-qtsvg-system-3rdparty-WrapZLIB",
+            "relationshipType": "CONTAINS"
+        }
+    ]
+}

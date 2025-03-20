@@ -1,0 +1,15 @@
+QT.multimedia_private.VERSION = 6.8.0
+QT.multimedia_private.name = QtMultimedia
+QT.multimedia_private.module =
+QT.multimedia_private.libs = $$QT_MODULE_LIB_BASE
+QT.multimedia_private.includes = $$QT_MODULE_LIB_BASE/QtMultimedia.framework/Versions/A/Headers/6.8.0 $$QT_MODULE_LIB_BASE/QtMultimedia.framework/Versions/A/Headers/6.8.0/QtMultimedia
+QT.multimedia_private.frameworks = 
+QT.multimedia_private.depends = core_private gui_private multimedia
+QT.multimedia_private.uses = 
+QT.multimedia_private.module_config = v2 lib_bundle internal_module
+QT.multimedia_private.enabled_features = ffmpeg avfoundation coreaudio videotoolbox spatialaudio spatialaudio_quick3d
+QT.multimedia_private.disabled_features = pipewire alsa evr gstreamer gstreamer_photography gstreamer_gl gstreamer_gl_wayland gstreamer_gl_egl gstreamer_gl_x11 gpu_vivante linux_v4l linux_dmabuf vaapi mmrenderer pulseaudio wmsdk opensles wasm wmf
+QMAKE_LIBS_AVFOUNDATION = -framework AVFoundation
+QMAKE_LIBDIR_FFMPEG = /usr/local/FFmpeg-n7.0.2/lib
+QMAKE_INCDIR_FFMPEG = /usr/local/FFmpeg-n7.0.2/include
+QMAKE_LIBS_FFMPEG = -lswscale -lswscale -lswresample -lswresample -lavutil -lavutil -lavformat -lavformat -lavcodec -lavcodec
