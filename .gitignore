@@ -21,3 +21,4 @@
 *.pro.user*
 *.qbs.user*
 
+build

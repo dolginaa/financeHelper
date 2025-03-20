@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(untitled1 VERSION 0.1 LANGUAGES CXX)
 
-set(CMAKE_PREFIX_PATH "${CMAKE_SOURCE_DIR}/third_party/qt" "${CMAKE_SOURCE_DIR}/third_party/googletest")
+set(CMAKE_PREFIX_PATH "${CMAKE_SOURCE_DIR}/third_party")
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_SOURCE_DIR}/ui)
@@ -13,6 +13,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(THIRD_PARTY_DIR "${CMAKE_SOURCE_DIR}/third_party")
+set(QT_PREFIX_PATH "${THIRD_PARTY_DIR}/qt")
 set(TESSERACT_PREFIX_PATH "${THIRD_PARTY_DIR}/tesseract")
 set(LEPTONICA_PREFIX_PATH "${THIRD_PARTY_DIR}/leptonica")
 set(NLOHMANN_JSON_PREFIX_PATH "${THIRD_PARTY_DIR}/nlohmann_json")
@@ -29,14 +30,18 @@ set(BOOST_LIB_DIR "${BOOST_PREFIX_PATH}/lib")
 set(POPPLER_INCLUDE_DIR "${POPPLER_PREFIX_PATH}/include")
 set(POPPLER_LIB_DIR "${POPPLER_PREFIX_PATH}/lib")
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport)
+# Поиск Qt ТОЛЬКО в third_party/qt
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport PATHS "${QT_PREFIX_PATH}" NO_DEFAULT_PATH)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport PATHS "${QT_PREFIX_PATH}" NO_DEFAULT_PATH)
+
+# Поиск других библиотек в third_party
 find_package(OpenCV REQUIRED)
-find_package(nlohmann_json REQUIRED PATHS "${NLOHMANN_JSON_PREFIX_PATH}")
+find_package(nlohmann_json REQUIRED PATHS "${NLOHMANN_JSON_PREFIX_PATH}" NO_DEFAULT_PATH)
 
 add_subdirectory(${CMAKE_SOURCE_DIR}/third_party/googletest)
 include_directories(${GTEST_INCLUDE_DIRS})
 
+# Поиск Poppler
 find_library(POPPLER_LIB poppler PATHS ${POPPLER_LIB_DIR} NO_DEFAULT_PATH)
 find_library(POPPLER_CPP_LIB poppler-cpp PATHS ${POPPLER_LIB_DIR} NO_DEFAULT_PATH)
 find_path(POPPLER_INCLUDE_DIR poppler-config.h PATHS ${POPPLER_INCLUDE_DIR} NO_DEFAULT_PATH)
@@ -68,7 +73,6 @@ set(PROJECT_SOURCES
     src/mainwindow.cpp
     include/api.h
     src/api.cpp
-    #test_add_income_dialog.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -125,33 +129,3 @@ install(TARGETS untitled1
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(untitled1)
 endif()
-
-#enable_testing()
-
-#find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport)
-#find_package(OpenCV REQUIRED)
-
-#add_executable(tests
-#    test_add_income_dialog.cpp
-#    ${CMAKE_CURRENT_BINARY_DIR}/untitled1_autogen/include
-#)
-
-#target_include_directories(tests PRIVATE
-#    include
-#    ui
-#    ${CMAKE_CURRENT_BINARY_DIR}/untitled1_autogen/include
-#    ${OpenCV_INCLUDE_DIRS}
-#)
-
-#target_link_libraries(tests PRIVATE
-#    Qt6::Widgets
-#    Qt6::Gui
-#    Qt6::Core
-#    Qt6::Pdf
-#    Qt6::Test
-#    Qt6::PrintSupport
-#    Qt6::Charts
-#    ${OpenCV_LIBS}
-#)
-
-#add_test(NAME tests COMMAND tests)
