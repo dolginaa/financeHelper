@@ -13,7 +13,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(THIRD_PARTY_DIR "${CMAKE_SOURCE_DIR}/third_party")
-set(QT_PREFIX_PATH "${THIRD_PARTY_DIR}/qt")
 set(TESSERACT_PREFIX_PATH "${THIRD_PARTY_DIR}/tesseract")
 set(LEPTONICA_PREFIX_PATH "${THIRD_PARTY_DIR}/leptonica")
 set(NLOHMANN_JSON_PREFIX_PATH "${THIRD_PARTY_DIR}/nlohmann_json")
@@ -32,7 +31,7 @@ set(POPPLER_LIB_DIR "${POPPLER_PREFIX_PATH}/lib")
 
 set(Qt6_DIR "${QT_PREFIX_PATH}")
 
-find_package(Qt6 CONFIG REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport PATHS "${QT_PREFIX_PATH}" NO_DEFAULT_PATH)
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Pdf Charts Test PrintSupport)
 
 find_package(OpenCV REQUIRED)
 find_package(nlohmann_json REQUIRED PATHS "${NLOHMANN_JSON_PREFIX_PATH}" NO_DEFAULT_PATH)

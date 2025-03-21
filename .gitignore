@@ -15,9 +15,8 @@
 **/*.qrc
 **/*.rcc
 **/*.res
-**/bin/
 **/*.dSYM/
-
+**/bin
 # Qt Creator
 .idea/
 **/*.pro.user*
