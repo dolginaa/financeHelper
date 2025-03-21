@@ -21,5 +21,8 @@
 .idea/
 **/*.pro.user*
 **/*.qbs.user*
+.DS_Store
 
 build
+CMakeLists.txt.user
+
